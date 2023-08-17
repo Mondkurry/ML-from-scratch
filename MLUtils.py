@@ -2,6 +2,32 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+import time
+import threading
+import traceback
+
+def loadingAnimation(func) -> None:
+    def wrapper(*args, **kwargs):
+        thr = threading.Thread(target=func, args=(), kwargs={})
+        try:
+            thr.start() # Run Function 
+            while thr.is_alive(): # While Function is running
+                print("\r|", end="")
+                time.sleep(0.1)
+                print("\r/", end="")
+                time.sleep(0.1)
+                print("\r-", end="")
+                time.sleep(0.1)
+                print("\r\\", end="")
+                time.sleep(0.1)
+                print("\r", end="")  
+            thr.join() # Will wait till function is done and join it.
+            print(func.__name__ + " is Done!")
+        except:
+            traceback.print_exc()
+            print("Error: unable to start thread")
+    return wrapper
+
 def printPurple(string): 
     """Literally just prints text in purple.. why not?"""
     print(f'\033[35m{string}\033[0m')
