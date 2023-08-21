@@ -32,6 +32,7 @@ def printPurple(string):
     """Literally just prints text in purple.. why not?"""
     print(f'\033[35m{string}\033[0m')
 
+
 # Function to plot a given function
 def plot_function(func, func_name, x_range=(-5, 5)):
     '''
