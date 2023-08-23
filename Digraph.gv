@@ -1,0 +1,1793 @@
+digraph {
+	rankdir=LR
+	11533877328 [label="{ | data 3.0000 | grad 4.2594}" shape=record]
+	11516346448 [label="{wixi | data 0.0811 | grad 4.2537}" shape=record]
+	"11516346448*" [label="*"]
+	"11516346448*" -> 11516346448
+	11533877456 [label="{wixi | data 0.0000 | grad 4.8026}" shape=record]
+	11533877520 [label="{total | data 2.7992 | grad 4.8026}" shape=record]
+	"11533877520+" [label="+"]
+	"11533877520+" -> 11533877520
+	11533877712 [label="{wixi | data 2.6607 | grad 4.8026}" shape=record]
+	"11533877712*" [label="*"]
+	"11533877712*" -> 11533877712
+	11533877776 [label="{ | data -1.0000 | grad -0.1292}" shape=record]
+	11533877904 [label="{wixi | data 2.6607 | grad 4.8026}" shape=record]
+	"11533877904+" [label="+"]
+	"11533877904+" -> 11533877904
+	11533877968 [label="{wixi | data 2.7187 | grad -4.2668}" shape=record]
+	"11533877968*" [label="*"]
+	"11533877968*" -> 11533877968
+	11533878032 [label="{wixi | data 2.7992 | grad 4.8026}" shape=record]
+	"11533878032+" [label="+"]
+	"11533878032+" -> 11533878032
+	11533878096 [label="{wixi | data 0.0269 | grad 4.8026}" shape=record]
+	"11533878096*" [label="*"]
+	"11533878096*" -> 11533878096
+	11533878160 [label="{wixi | data 2.6876 | grad 4.8026}" shape=record]
+	"11533878160+" [label="+"]
+	"11533878160+" -> 11533878160
+	11533878224 [label="{wixi | data 0.1116 | grad 4.8026}" shape=record]
+	"11533878224*" [label="*"]
+	"11533878224*" -> 11533878224
+	11533878288 [label="{ | data 0.5000 | grad 1.0722}" shape=record]
+	11533878352 [label="{ | data 2.7992 | grad 4.8026}" shape=record]
+	"11533878352ReLU" [label=ReLU]
+	"11533878352ReLU" -> 11533878352
+	11533878544 [label="{wixi | data -1.2618 | grad 0.0000}" shape=record]
+	"11533878544+" [label="+"]
+	"11533878544+" -> 11533878544
+	11533878608 [label="{wixi | data 0.0000 | grad 0.0000}" shape=record]
+	11533878800 [label="{wixi | data 0.0000 | grad 0.0000}" shape=record]
+	"11533878800+" [label="+"]
+	"11533878800+" -> 11533878800
+	11533878992 [label="{total | data -0.4138 | grad 0.0000}" shape=record]
+	"11533878992+" [label="+"]
+	"11533878992+" -> 11533878992
+	11516348176 [label="{total | data 1.1229 | grad 4.2537}" shape=record]
+	"11516348176+" [label="+"]
+	"11516348176+" -> 11516348176
+	11285628688 [label="{wi | data 0.2270 | grad 4.8606}" shape=record]
+	11533879056 [label="{ | data 0.0000 | grad 4.6167}" shape=record]
+	"11533879056ReLU" [label=ReLU]
+	"11533879056ReLU" -> 11533879056
+	11285628816 [label="{wi | data -0.3585 | grad 5.1524}" shape=record]
+	11285628880 [label="{bias | data 0.0000 | grad 3.6734}" shape=record]
+	11533879248 [label="{wixi | data 0.0000 | grad 0.0000}" shape=record]
+	"11533879248*" [label="*"]
+	"11533879248*" -> 11533879248
+	11285628944 [label="{wi | data 0.1621 | grad 10.8085}" shape=record]
+	11533879312 [label="{wixi | data 0.2776 | grad 0.0000}" shape=record]
+	"11533879312+" [label="+"]
+	"11533879312+" -> 11533879312
+	11285629008 [label="{wi | data 0.4138 | grad 8.0943}" shape=record]
+	11285629072 [label="{bias | data 0.0000 | grad 17.8020}" shape=record]
+	11533879440 [label="{wixi | data 0.2776 | grad 0.0000}" shape=record]
+	"11533879440+" [label="+"]
+	"11533879440+" -> 11533879440
+	11533879504 [label="{wixi | data -0.0000 | grad 0.0000}" shape=record]
+	"11533879504*" [label="*"]
+	"11533879504*" -> 11533879504
+	11285629200 [label="{wi | data 0.4549 | grad -0.7476}" shape=record]
+	11285629264 [label="{wi | data 0.8869 | grad 34.8313}" shape=record]
+	11533879632 [label="{wixi | data -0.6914 | grad 0.0000}" shape=record]
+	"11533879632*" [label="*"]
+	"11533879632*" -> 11533879632
+	11285629328 [label="{wi | data -0.0269 | grad 0.8793}" shape=record]
+	11533879696 [label="{wixi | data 0.3035 | grad -2.8885}" shape=record]
+	"11533879696*" [label="*"]
+	"11533879696*" -> 11533879696
+	11285629392 [label="{wi | data 0.2233 | grad 7.5948}" shape=record]
+	11533879760 [label="{wixi | data -0.4138 | grad 0.0000}" shape=record]
+	"11533879760+" [label="+"]
+	"11533879760+" -> 11533879760
+	11285629456 [label="{bias | data 0.0000 | grad 15.4908}" shape=record]
+	11533879824 [label="{total | data 0.6398 | grad 2.1694}" shape=record]
+	"11533879824+" [label="+"]
+	"11533879824+" -> 11533879824
+	11533879888 [label="{ | data 0.0000 | grad 6.4693}" shape=record]
+	"11533879888ReLU" [label=ReLU]
+	"11533879888ReLU" -> 11533879888
+	11533879952 [label="{wixi | data 0.2776 | grad 0.0000}" shape=record]
+	"11533879952*" [label="*"]
+	"11533879952*" -> 11533879952
+	11285629648 [label="{wi | data 0.7524 | grad 4.6481}" shape=record]
+	11285629776 [label="{wi | data 0.2472 | grad 5.2611}" shape=record]
+	11285629840 [label="{wi | data -0.5466 | grad 6.0386}" shape=record]
+	11516349392 [label="{wixi | data 1.1229 | grad 4.2537}" shape=record]
+	"11516349392+" [label="+"]
+	"11516349392+" -> 11516349392
+	11285629904 [label="{wi | data -0.2470 | grad 5.6041}" shape=record]
+	11533880272 [label="{wixi | data 0.0000 | grad -4.2668}" shape=record]
+	11516349456 [label="{wixi | data 0.0000 | grad 4.2537}" shape=record]
+	11285629968 [label="{bias | data 0.0000 | grad 8.7592}" shape=record]
+	11533880336 [label="{total | data 2.1076 | grad -4.2668}" shape=record]
+	"11533880336+" [label="+"]
+	"11533880336+" -> 11533880336
+	11533880400 [label="{wixi | data 0.0000 | grad -4.2668}" shape=record]
+	"11533880400*" [label="*"]
+	"11533880400*" -> 11533880400
+	11533880464 [label="{wixi | data 0.0000 | grad -4.2668}" shape=record]
+	"11533880464+" [label="+"]
+	"11533880464+" -> 11533880464
+	11285630096 [label="{wi | data 0.5720 | grad -3.0657}" shape=record]
+	11533880528 [label="{wixi | data -0.6111 | grad -4.2668}" shape=record]
+	"11533880528*" [label="*"]
+	"11533880528*" -> 11533880528
+	11285630160 [label="{wi | data -0.5442 | grad -15.5142}" shape=record]
+	11533880592 [label="{wixi | data -0.6111 | grad -4.2668}" shape=record]
+	"11533880592+" [label="+"]
+	"11533880592+" -> 11533880592
+	11285630224 [label="{wi | data -0.3400 | grad -4.1246}" shape=record]
+	11533880656 [label="{wixi | data -0.0000 | grad -4.2668}" shape=record]
+	"11533880656*" [label="*"]
+	"11533880656*" -> 11533880656
+	11285630288 [label="{wi | data 0.9712 | grad -30.1608}" shape=record]
+	11285630352 [label="{bias | data 0.0000 | grad -15.6849}" shape=record]
+	11533880720 [label="{wixi | data -0.6111 | grad -4.2668}" shape=record]
+	"11533880720+" [label="+"]
+	"11533880720+" -> 11533880720
+	11516349904 [label="{total | data -1.2618 | grad 0.0000}" shape=record]
+	"11516349904+" [label="+"]
+	"11516349904+" -> 11516349904
+	11533880784 [label="{wixi | data 2.1076 | grad -4.2668}" shape=record]
+	"11533880784+" [label="+"]
+	"11533880784+" -> 11533880784
+	11533880848 [label="{ | data 2.1076 | grad -4.2668}" shape=record]
+	"11533880848ReLU" [label=ReLU]
+	"11533880848ReLU" -> 11533880848
+	11285630480 [label="{wi | data 0.2840 | grad 4.6581}" shape=record]
+	11533880912 [label="{wixi | data 0.6929 | grad 6.4832}" shape=record]
+	"11533880912+" [label="+"]
+	"11533880912+" -> 11533880912
+	11285630544 [label="{wi | data 0.6171 | grad 23.5730}" shape=record]
+	11285630608 [label="{wi | data 0.3866 | grad 6.2671}" shape=record]
+	11285630672 [label="{wi | data 0.8153 | grad 45.8277}" shape=record]
+	11285630736 [label="{bias | data 0.0000 | grad 23.8324}" shape=record]
+	11533881168 [label="{total | data 2.9753 | grad 6.4832}" shape=record]
+	"11533881168+" [label="+"]
+	"11533881168+" -> 11533881168
+	11285630864 [label="{wi | data 0.4496 | grad 4.3937}" shape=record]
+	11285630928 [label="{wi | data -0.3383 | grad 22.2351}" shape=record]
+	11285630992 [label="{wi | data 0.1078 | grad 5.9114}" shape=record]
+	11285631056 [label="{wi | data 0.5986 | grad 43.2266}" shape=record]
+	11533881424 [label="{wixi | data 0.0000 | grad 6.4832}" shape=record]
+	11285631120 [label="{bias | data 0.0000 | grad 22.4797}" shape=record]
+	11533881616 [label="{ | data 0.5000 | grad -0.2622}" shape=record]
+	11533881680 [label="{wixi | data -1.0754 | grad 0.0000}" shape=record]
+	"11533881680*" [label="*"]
+	"11533881680*" -> 11533881680
+	11285631312 [label="{wi | data 0.9088 | grad 0.1243}" shape=record]
+	11285631376 [label="{wi | data -0.5994 | grad 35.3725}" shape=record]
+	11285631440 [label="{wi | data 0.9107 | grad 61.1145}" shape=record]
+	11285631504 [label="{wi | data 0.8590 | grad 24.4064}" shape=record]
+	11533881872 [label="{wixi | data 0.0000 | grad 6.4832}" shape=record]
+	"11533881872*" [label="*"]
+	"11533881872*" -> 11533881872
+	11285631568 [label="{bias | data 0.0000 | grad 26.1688}" shape=record]
+	11533882064 [label="{wixi | data 0.6929 | grad 6.4832}" shape=record]
+	"11533882064*" [label="*"]
+	"11533882064*" -> 11533882064
+	11533882192 [label="{wixi | data 0.2115 | grad 3.9624}" shape=record]
+	"11533882192*" [label="*"]
+	"11533882192*" -> 11533882192
+	11533882256 [label="{wixi | data 0.0000 | grad 6.4832}" shape=record]
+	"11533882256*" [label="*"]
+	"11533882256*" -> 11533882256
+	11533882320 [label="{wixi | data 0.0000 | grad 6.4832}" shape=record]
+	"11533882320+" [label="+"]
+	"11533882320+" -> 11533882320
+	11533882384 [label="{wixi | data 2.9753 | grad 6.4832}" shape=record]
+	"11533882384+" [label="+"]
+	"11533882384+" -> 11533882384
+	11533882512 [label="{wixi | data 0.6929 | grad 6.4832}" shape=record]
+	"11533882512+" [label="+"]
+	"11533882512+" -> 11533882512
+	11533882576 [label="{wixi | data 2.2823 | grad 6.4832}" shape=record]
+	"11533882576*" [label="*"]
+	"11533882576*" -> 11533882576
+	11533882704 [label="{ | data 2.9753 | grad 6.4832}" shape=record]
+	"11533882704ReLU" [label=ReLU]
+	"11533882704ReLU" -> 11533882704
+	11533883088 [label="{wixi | data 0.0000 | grad 6.1152}" shape=record]
+	11533883152 [label="{total | data 1.2957 | grad 6.1152}" shape=record]
+	"11533883152+" [label="+"]
+	"11533883152+" -> 11533883152
+	11533883344 [label="{ | data 1.2957 | grad 6.1152}" shape=record]
+	"11533883344ReLU" [label=ReLU]
+	"11533883344ReLU" -> 11533883344
+	11533883472 [label="{ | data 2.5594 | grad 7.1188}" shape=record]
+	"11533883472ReLU" [label=ReLU]
+	"11533883472ReLU" -> 11533883472
+	11533883536 [label="{wixi | data -1.2633 | grad 7.1188}" shape=record]
+	"11533883536+" [label="+"]
+	"11533883536+" -> 11533883536
+	11533883600 [label="{wixi | data 2.7096 | grad 7.1188}" shape=record]
+	"11533883600*" [label="*"]
+	"11533883600*" -> 11533883600
+	11533883664 [label="{wixi | data 1.6756 | grad 6.1152}" shape=record]
+	"11533883664*" [label="*"]
+	"11533883664*" -> 11533883664
+	11533883856 [label="{wixi | data 1.4464 | grad 7.1188}" shape=record]
+	"11533883856+" [label="+"]
+	"11533883856+" -> 11533883856
+	11533883984 [label="{wixi | data 2.5594 | grad 7.1188}" shape=record]
+	"11533883984+" [label="+"]
+	"11533883984+" -> 11533883984
+	11533884240 [label="{wixi | data -1.4892 | grad 0.0000}" shape=record]
+	"11533884240+" [label="+"]
+	"11533884240+" -> 11533884240
+	11533884304 [label="{wixi | data 0.0000 | grad 6.1152}" shape=record]
+	"11533884304*" [label="*"]
+	"11533884304*" -> 11533884304
+	11533884432 [label="{wixi | data 0.0000 | grad 6.1152}" shape=record]
+	"11533884432+" [label="+"]
+	"11533884432+" -> 11533884432
+	11533884496 [label="{wixi | data -0.3799 | grad 6.1152}" shape=record]
+	"11533884496*" [label="*"]
+	"11533884496*" -> 11533884496
+	11533884560 [label="{wixi | data -0.3799 | grad 6.1152}" shape=record]
+	"11533884560+" [label="+"]
+	"11533884560+" -> 11533884560
+	11533884624 [label="{wixi | data 0.0000 | grad 7.1188}" shape=record]
+	11533884688 [label="{wixi | data 0.0000 | grad 6.1152}" shape=record]
+	"11533884688*" [label="*"]
+	"11533884688*" -> 11533884688
+	11533884880 [label="{wixi | data 1.2957 | grad 6.1152}" shape=record]
+	"11533884880+" [label="+"]
+	"11533884880+" -> 11533884880
+	11533884944 [label="{total | data 2.5594 | grad 7.1188}" shape=record]
+	"11533884944+" [label="+"]
+	"11533884944+" -> 11533884944
+	11533885008 [label="{wixi | data 0.0000 | grad 7.1188}" shape=record]
+	"11533885008*" [label="*"]
+	"11533885008*" -> 11533885008
+	11516354192 [label="{wixi | data 1.2688 | grad 4.2537}" shape=record]
+	"11516354192+" [label="+"]
+	"11516354192+" -> 11516354192
+	11533885072 [label="{wixi | data 0.0000 | grad 7.1188}" shape=record]
+	"11533885072+" [label="+"]
+	"11533885072+" -> 11533885072
+	11533885136 [label="{wixi | data -0.3799 | grad 6.1152}" shape=record]
+	"11533885136+" [label="+"]
+	"11533885136+" -> 11533885136
+	11533885200 [label="{wixi | data -1.2633 | grad 7.1188}" shape=record]
+	"11533885200*" [label="*"]
+	"11533885200*" -> 11533885200
+	11533885392 [label="{ | data 3.0000 | grad 0.0000}" shape=record]
+	11533885456 [label="{wixi | data -0.4138 | grad 0.0000}" shape=record]
+	"11533885456*" [label="*"]
+	"11533885456*" -> 11533885456
+	11533885520 [label="{wixi | data 1.1131 | grad 7.1188}" shape=record]
+	"11533885520*" [label="*"]
+	"11533885520*" -> 11533885520
+	11516354640 [label="{wixi | data -0.2270 | grad 4.2537}" shape=record]
+	"11516354640*" [label="*"]
+	"11516354640*" -> 11516354640
+	11533885776 [label="{wixi | data 0.0000 | grad 4.7511}" shape=record]
+	11533886096 [label="{wixi | data -1.0754 | grad 0.0000}" shape=record]
+	"11533886096+" [label="+"]
+	"11533886096+" -> 11533886096
+	11533886160 [label="{total | data 0.5307 | grad 4.7511}" shape=record]
+	"11533886160+" [label="+"]
+	"11533886160+" -> 11533886160
+	11533886224 [label="{wixi | data -0.1699 | grad 4.7511}" shape=record]
+	"11533886224*" [label="*"]
+	"11533886224*" -> 11533886224
+	11533886288 [label="{ | data 0.5000 | grad -1.0989}" shape=record]
+	11516355472 [label="{ | data 3.0000 | grad 1.7991}" shape=record]
+	11533886352 [label="{wixi | data -0.1156 | grad 4.7511}" shape=record]
+	"11533886352*" [label="*"]
+	"11533886352*" -> 11533886352
+	11533886416 [label="{wixi | data -0.1156 | grad 4.7511}" shape=record]
+	"11533886416+" [label="+"]
+	"11533886416+" -> 11533886416
+	11533886480 [label="{ | data 1.0000 | grad -0.8073}" shape=record]
+	11533886544 [label="{wixi | data -0.2856 | grad 4.7511}" shape=record]
+	"11533886544+" [label="+"]
+	"11533886544+" -> 11533886544
+	11533886608 [label="{ | data 1.0000 | grad 3.8779}" shape=record]
+	11533886672 [label="{wixi | data 0.8162 | grad 4.7511}" shape=record]
+	"11533886672*" [label="*"]
+	"11533886672*" -> 11533886672
+	11533886736 [label="{wixi | data 0.5307 | grad 4.7511}" shape=record]
+	"11533886736+" [label="+"]
+	"11533886736+" -> 11533886736
+	11533886800 [label="{ | data 0.5307 | grad 4.7511}" shape=record]
+	"11533886800ReLU" [label=ReLU]
+	"11533886800ReLU" -> 11533886800
+	11516356112 [label="{ | data -1.0000 | grad 0.9657}" shape=record]
+	11533886992 [label="{total | data 0.6006 | grad 3.9624}" shape=record]
+	"11533886992+" [label="+"]
+	"11533886992+" -> 11533886992
+	11533887056 [label="{wixi | data 0.0000 | grad 3.9624}" shape=record]
+	11533887120 [label="{total | data 0.6894 | grad 0.7315}" shape=record]
+	"11533887120+" [label="+"]
+	"11533887120+" -> 11533887120
+	11533887184 [label="{ | data 0.5000 | grad 1.6759}" shape=record]
+	11533887248 [label="{wixi | data 0.2115 | grad 3.9624}" shape=record]
+	"11533887248+" [label="+"]
+	"11533887248+" -> 11533887248
+	11533887312 [label="{wixi | data -0.2577 | grad -2.8885}" shape=record]
+	"11533887312+" [label="+"]
+	"11533887312+" -> 11533887312
+	11533887376 [label="{ | data 1.0000 | grad 0.8995}" shape=record]
+	11533887440 [label="{wixi | data 0.2270 | grad 3.9624}" shape=record]
+	"11533887440*" [label="*"]
+	"11533887440*" -> 11533887440
+	11533887504 [label="{wixi | data 0.6006 | grad 3.9624}" shape=record]
+	"11533887504+" [label="+"]
+	"11533887504+" -> 11533887504
+	11533887568 [label="{wixi | data 0.4385 | grad 3.9624}" shape=record]
+	"11533887568+" [label="+"]
+	"11533887568+" -> 11533887568
+	11533887632 [label="{ | data 1.0000 | grad 0.6425}" shape=record]
+	11533887696 [label="{wixi | data 0.1621 | grad 3.9624}" shape=record]
+	"11533887696*" [label="*"]
+	"11533887696*" -> 11533887696
+	11533887824 [label="{ | data 0.6006 | grad 3.9624}" shape=record]
+	"11533887824ReLU" [label=ReLU]
+	"11533887824ReLU" -> 11533887824
+	11343735248 [label="{wixi | data 0.1699 | grad 0.0000}" shape=record]
+	"11343735248*" [label="*"]
+	"11343735248*" -> 11343735248
+	11533888080 [label="{wixi | data 0.0000 | grad 0.7315}" shape=record]
+	11516357264 [label="{wixi | data 1.2688 | grad 4.2537}" shape=record]
+	"11516357264*" [label="*"]
+	"11516357264*" -> 11516357264
+	11533888208 [label="{total | data 0.4927 | grad 4.1399}" shape=record]
+	"11533888208+" [label="+"]
+	"11533888208+" -> 11533888208
+	11533888272 [label="{wixi | data 0.0000 | grad 2.1694}" shape=record]
+	11516357456 [label="{ | data 1.1229 | grad 4.2537}" shape=record]
+	"11516357456ReLU" [label=ReLU]
+	"11516357456ReLU" -> 11516357456
+	11533888400 [label="{wixi | data -0.1792 | grad 0.7315}" shape=record]
+	"11533888400*" [label="*"]
+	"11533888400*" -> 11533888400
+	11533888464 [label="{wixi | data 0.4138 | grad 0.7315}" shape=record]
+	"11533888464*" [label="*"]
+	"11533888464*" -> 11533888464
+	11533888656 [label="{ | data 1.0000 | grad 0.3026}" shape=record]
+	11533888784 [label="{wixi | data 0.2345 | grad 0.7315}" shape=record]
+	"11533888784+" [label="+"]
+	"11533888784+" -> 11533888784
+	11533888848 [label="{wixi | data 0.5214 | grad 4.3890}" shape=record]
+	"11533888848+" [label="+"]
+	"11533888848+" -> 11533888848
+	11533888912 [label="{ | data 0.6894 | grad 0.7315}" shape=record]
+	"11533888912ReLU" [label=ReLU]
+	"11533888912ReLU" -> 11533888912
+	11533888976 [label="{ | data -1.0000 | grad 0.0000}" shape=record]
+	11533889040 [label="{wixi | data -0.1792 | grad 0.7315}" shape=record]
+	"11533889040+" [label="+"]
+	"11533889040+" -> 11533889040
+	11533889104 [label="{wixi | data 0.0000 | grad 4.1399}" shape=record]
+	11533889168 [label="{ | data 1.0000 | grad 0.3327}" shape=record]
+	11533889232 [label="{wixi | data 0.4549 | grad 0.7315}" shape=record]
+	"11533889232*" [label="*"]
+	"11533889232*" -> 11533889232
+	11533889296 [label="{wixi | data 0.6894 | grad 0.7315}" shape=record]
+	"11533889296+" [label="+"]
+	"11533889296+" -> 11533889296
+	11516358672 [label="{wixi | data 1.0418 | grad 4.2537}" shape=record]
+	"11516358672+" [label="+"]
+	"11516358672+" -> 11516358672
+	11533889552 [label="{ | data 0.5000 | grad 1.9241}" shape=record]
+	11533889616 [label="{wixi | data 0.4434 | grad 2.1694}" shape=record]
+	"11533889616+" [label="+"]
+	"11533889616+" -> 11533889616
+	11533889680 [label="{wixi | data 0.4434 | grad 2.1694}" shape=record]
+	"11533889680*" [label="*"]
+	"11533889680*" -> 11533889680
+	11533889744 [label="{total | data 0.0129 | grad 4.3796}" shape=record]
+	"11533889744+" [label="+"]
+	"11533889744+" -> 11533889744
+	11533889808 [label="{ | data 1.0000 | grad -0.0584}" shape=record]
+	11533889872 [label="{wixi | data -0.0269 | grad 2.1694}" shape=record]
+	"11533889872*" [label="*"]
+	"11533889872*" -> 11533889872
+	11533889936 [label="{wixi | data 0.4165 | grad 2.1694}" shape=record]
+	"11533889936+" [label="+"]
+	"11533889936+" -> 11533889936
+	11533890000 [label="{ | data 1.0000 | grad 0.4844}" shape=record]
+	11284099600 [label="{bias | data 0.0000 | grad 9.5022}" shape=record]
+	11533890064 [label="{wixi | data 0.2233 | grad 2.1694}" shape=record]
+	"11533890064*" [label="*"]
+	"11533890064*" -> 11533890064
+	11533890192 [label="{wixi | data 0.6398 | grad 2.1694}" shape=record]
+	"11533890192+" [label="+"]
+	"11533890192+" -> 11533890192
+	11533890256 [label="{ | data 0.6398 | grad 2.1694}" shape=record]
+	"11533890256ReLU" [label=ReLU]
+	"11533890256ReLU" -> 11533890256
+	11533890512 [label="{wixi | data 0.0000 | grad 4.3796}" shape=record]
+	11533890576 [label="{wixi | data 0.3993 | grad 4.3796}" shape=record]
+	"11533890576*" [label="*"]
+	"11533890576*" -> 11533890576
+	11533890640 [label="{wixi | data 0.1485 | grad 4.3796}" shape=record]
+	"11533890640*" [label="*"]
+	"11533890640*" -> 11533890640
+	11533890704 [label="{wixi | data 0.3993 | grad 4.3796}" shape=record]
+	"11533890704+" [label="+"]
+	"11533890704+" -> 11533890704
+	11516359888 [label="{ | data 0.5000 | grad 0.6897}" shape=record]
+	11533890768 [label="{total | data 0.3636 | grad -2.8885}" shape=record]
+	"11533890768+" [label="+"]
+	"11533890768+" -> 11533890768
+	11533890832 [label="{wixi | data 0.5478 | grad 4.3796}" shape=record]
+	"11533890832+" [label="+"]
+	"11533890832+" -> 11533890832
+	11533890896 [label="{wixi | data -0.3768 | grad 4.3796}" shape=record]
+	"11533890896*" [label="*"]
+	"11533890896*" -> 11533890896
+	11533890960 [label="{wixi | data 0.1709 | grad 4.3796}" shape=record]
+	"11533890960+" [label="+"]
+	"11533890960+" -> 11533890960
+	11533891024 [label="{wixi | data -0.1580 | grad 4.3796}" shape=record]
+	"11533891024*" [label="*"]
+	"11533891024*" -> 11533891024
+	11533891088 [label="{wixi | data 0.0129 | grad 4.3796}" shape=record]
+	"11533891088+" [label="+"]
+	"11533891088+" -> 11533891088
+	11533891216 [label="{ | data 0.0129 | grad 4.3796}" shape=record]
+	"11533891216ReLU" [label=ReLU]
+	"11533891216ReLU" -> 11533891216
+	11533891472 [label="{wixi | data 0.0000 | grad -2.8885}" shape=record]
+	11533891536 [label="{wixi | data 0.3035 | grad -2.8885}" shape=record]
+	"11533891536+" [label="+"]
+	"11533891536+" -> 11533891536
+	11533891600 [label="{wixi | data -0.3269 | grad -2.8885}" shape=record]
+	"11533891600*" [label="*"]
+	"11533891600*" -> 11533891600
+	11533891792 [label="{wixi | data -0.2344 | grad -2.8885}" shape=record]
+	"11533891792*" [label="*"]
+	"11533891792*" -> 11533891792
+	11516360976 [label="{wixi | data 0.0000 | grad 0.0000}" shape=record]
+	11533891920 [label="{wixi | data -0.0233 | grad -2.8885}" shape=record]
+	"11533891920+" [label="+"]
+	"11533891920+" -> 11533891920
+	11533892048 [label="{wixi | data 0.6214 | grad -2.8885}" shape=record]
+	"11533892048*" [label="*"]
+	"11533892048*" -> 11533892048
+	11533892112 [label="{ | data 0.3636 | grad -2.8885}" shape=record]
+	"11533892112ReLU" [label=ReLU]
+	"11533892112ReLU" -> 11533892112
+	11533892176 [label="{wixi | data 0.3636 | grad -2.8885}" shape=record]
+	"11533892176+" [label="+"]
+	"11533892176+" -> 11533892176
+	11533892368 [label="{ | data 1.3095 | grad 4.3890}" shape=record]
+	"11533892368ReLU" [label=ReLU]
+	"11533892368ReLU" -> 11533892368
+	11533892496 [label="{wixi | data 1.3095 | grad 4.3890}" shape=record]
+	"11533892496+" [label="+"]
+	"11533892496+" -> 11533892496
+	11533892560 [label="{wixi | data 0.1507 | grad 4.3890}" shape=record]
+	"11533892560+" [label="+"]
+	"11533892560+" -> 11533892560
+	11533892688 [label="{wixi | data 0.0000 | grad 4.3890}" shape=record]
+	11533892752 [label="{total | data 1.3095 | grad 4.3890}" shape=record]
+	"11533892752+" [label="+"]
+	"11533892752+" -> 11533892752
+	11533892880 [label="{wixi | data 0.7879 | grad 4.3890}" shape=record]
+	"11533892880+" [label="+"]
+	"11533892880+" -> 11533892880
+	11533893072 [label="{wixi | data 0.2274 | grad 0.0000}" shape=record]
+	"11533893072*" [label="*"]
+	"11533893072*" -> 11533893072
+	11533893136 [label="{wixi | data 0.3706 | grad 4.3890}" shape=record]
+	"11533893136*" [label="*"]
+	"11533893136*" -> 11533893136
+	11533893328 [label="{wixi | data 0.1507 | grad 4.3890}" shape=record]
+	"11533893328*" [label="*"]
+	"11533893328*" -> 11533893328
+	11533893392 [label="{wixi | data 0.5217 | grad 4.3890}" shape=record]
+	"11533893392*" [label="*"]
+	"11533893392*" -> 11533893392
+	11533893520 [label="{wixi | data 0.2665 | grad 4.3890}" shape=record]
+	"11533893520*" [label="*"]
+	"11533893520*" -> 11533893520
+	11533893584 [label="{ | data 0.5000 | grad 0.0000}" shape=record]
+	11533860944 [label="{wixi | data 0.0117 | grad 4.8193}" shape=record]
+	"11533860944*" [label="*"]
+	"11533860944*" -> 11533860944
+	11533861008 [label="{ | data -1.0000 | grad -0.0840}" shape=record]
+	11533861072 [label="{wixi | data 0.0000 | grad 4.8193}" shape=record]
+	11516363024 [label="{ | data 2.0000 | grad 0.4307}" shape=record]
+	11533861136 [label="{wixi | data 0.2386 | grad 4.1399}" shape=record]
+	"11533861136+" [label="+"]
+	"11533861136+" -> 11533861136
+	11516395920 [label="{wixi | data -0.7427 | grad -1.0215}" shape=record]
+	"11516395920*" [label="*"]
+	"11516395920*" -> 11516395920
+	11533861392 [label="{wixi | data -0.2180 | grad 4.8193}" shape=record]
+	"11533861392*" [label="*"]
+	"11533861392*" -> 11533861392
+	11533861456 [label="{total | data 1.4096 | grad 4.8193}" shape=record]
+	"11533861456+" [label="+"]
+	"11533861456+" -> 11533861456
+	11533861712 [label="{wixi | data 1.4096 | grad 4.8193}" shape=record]
+	"11533861712+" [label="+"]
+	"11533861712+" -> 11533861712
+	11533861776 [label="{wixi | data 0.0117 | grad 4.8193}" shape=record]
+	"11533861776+" [label="+"]
+	"11533861776+" -> 11533861776
+	11533861840 [label="{wixi | data -0.2062 | grad 4.8193}" shape=record]
+	"11533861840+" [label="+"]
+	"11533861840+" -> 11533861840
+	11533861904 [label="{wixi | data 0.1097 | grad 4.1399}" shape=record]
+	"11533861904+" [label="+"]
+	"11533861904+" -> 11533861904
+	11533861968 [label="{ | data 1.4096 | grad 4.8193}" shape=record]
+	"11533861968ReLU" [label=ReLU]
+	"11533861968ReLU" -> 11533861968
+	11533862096 [label="{wixi | data 0.2386 | grad 4.1399}" shape=record]
+	"11533862096*" [label="*"]
+	"11533862096*" -> 11533862096
+	11533862160 [label="{wixi | data 0.9864 | grad 4.8193}" shape=record]
+	"11533862160+" [label="+"]
+	"11533862160+" -> 11533862160
+	11516396880 [label="{ | data 0.0000 | grad 1.5488}" shape=record]
+	"11516396880ReLU" [label=ReLU]
+	"11516396880ReLU" -> 11516396880
+	11533862224 [label="{wixi | data 0.4233 | grad 4.8193}" shape=record]
+	"11533862224*" [label="*"]
+	"11533862224*" -> 11533862224
+	11516396944 [label="{wixi | data 0.3374 | grad 0.0000}" shape=record]
+	"11516396944+" [label="+"]
+	"11516396944+" -> 11516396944
+	11516364240 [label="{wixi | data -0.7170 | grad 1.1052}" shape=record]
+	"11516364240*" [label="*"]
+	"11516364240*" -> 11516364240
+	11533862352 [label="{wixi | data 0.0743 | grad 4.1399}" shape=record]
+	"11533862352*" [label="*"]
+	"11533862352*" -> 11533862352
+	11515709008 [label="{ | data 0.5000 | grad 0.0000}" shape=record]
+	11516364368 [label="{wixi | data -0.0807 | grad 1.1497}" shape=record]
+	"11516364368*" [label="*"]
+	"11516364368*" -> 11516364368
+	11516364432 [label="{wixi | data -0.8162 | grad 0.0000}" shape=record]
+	"11516364432*" [label="*"]
+	"11516364432*" -> 11516364432
+	11516397200 [label="{wixi | data 0.0000 | grad -1.0215}" shape=record]
+	"11516397200*" [label="*"]
+	"11516397200*" -> 11516397200
+	11516364688 [label="{wixi | data 0.6811 | grad 1.0183}" shape=record]
+	"11516364688*" [label="*"]
+	"11516364688*" -> 11516364688
+	11533862800 [label="{wixi | data 1.1926 | grad 4.8193}" shape=record]
+	"11533862800*" [label="*"]
+	"11533862800*" -> 11533862800
+	11533863056 [label="{ | data 0.0000 | grad -0.3618}" shape=record]
+	"11533863056ReLU" [label=ReLU]
+	"11533863056ReLU" -> 11533863056
+	11285809360 [label="{wixi | data 0.0000 | grad 0.0000}" shape=record]
+	11533863184 [label="{wixi | data 0.0354 | grad 4.1399}" shape=record]
+	"11533863184+" [label="+"]
+	"11533863184+" -> 11533863184
+	11516397904 [label="{wixi | data 0.0000 | grad -1.0215}" shape=record]
+	11533863248 [label="{wixi | data 0.2270 | grad -0.3334}" shape=record]
+	"11533863248*" [label="*"]
+	"11533863248*" -> 11533863248
+	11533863440 [label="{wixi | data 0.0000 | grad 0.0000}" shape=record]
+	11516398288 [label="{wixi | data 0.0000 | grad 1.7042}" shape=record]
+	"11516398288*" [label="*"]
+	"11516398288*" -> 11516398288
+	11533863632 [label="{total | data -1.2174 | grad 0.0000}" shape=record]
+	"11533863632+" [label="+"]
+	"11533863632+" -> 11533863632
+	11533863824 [label="{wixi | data -0.4012 | grad 0.0000}" shape=record]
+	"11533863824+" [label="+"]
+	"11533863824+" -> 11533863824
+	11516365776 [label="{wixi | data 0.8459 | grad 1.0183}" shape=record]
+	"11516365776*" [label="*"]
+	"11516365776*" -> 11516365776
+	11516398544 [label="{wixi | data 0.8691 | grad 1.5521}" shape=record]
+	"11516398544+" [label="+"]
+	"11516398544+" -> 11516398544
+	11533863888 [label="{wixi | data -0.2313 | grad 0.0000}" shape=record]
+	"11533863888*" [label="*"]
+	"11533863888*" -> 11533863888
+	11533864016 [label="{ | data 1.0000 | grad 0.0000}" shape=record]
+	11533864080 [label="{ | data -1.0000 | grad 0.0000}" shape=record]
+	11516398864 [label="{wixi | data -0.3963 | grad 1.7042}" shape=record]
+	"11516398864+" [label="+"]
+	"11516398864+" -> 11516398864
+	11533864208 [label="{ | data 1.0000 | grad 0.0000}" shape=record]
+	11533864272 [label="{wixi | data -0.1699 | grad 0.0000}" shape=record]
+	"11533864272*" [label="*"]
+	"11533864272*" -> 11533864272
+	11533864400 [label="{wixi | data -1.2174 | grad 0.0000}" shape=record]
+	"11533864400+" [label="+"]
+	"11533864400+" -> 11533864400
+	11516366352 [label="{wixi | data 0.0000 | grad 1.1497}" shape=record]
+	11533864464 [label="{wixi | data 0.8600 | grad -0.3764}" shape=record]
+	"11533864464+" [label="+"]
+	"11533864464+" -> 11533864464
+	11533864528 [label="{ | data 0.0000 | grad -0.1685}" shape=record]
+	"11533864528ReLU" [label=ReLU]
+	"11533864528ReLU" -> 11533864528
+	11533864592 [label="{wixi | data 0.6500 | grad -0.3334}" shape=record]
+	"11533864592+" [label="+"]
+	"11533864592+" -> 11533864592
+	11533864720 [label="{wixi | data -0.2313 | grad 0.0000}" shape=record]
+	"11533864720+" [label="+"]
+	"11533864720+" -> 11533864720
+	11533864784 [label="{ | data 1.0000 | grad -0.1410}" shape=record]
+	11533864848 [label="{wixi | data 0.4229 | grad -0.3334}" shape=record]
+	"11533864848*" [label="*"]
+	"11533864848*" -> 11533864848
+	11533864912 [label="{ | data 1.0000 | grad -0.0757}" shape=record]
+	11516399632 [label="{wixi | data 0.0268 | grad 1.5521}" shape=record]
+	"11516399632*" [label="*"]
+	"11516399632*" -> 11516399632
+	11533865040 [label="{wixi | data 0.4229 | grad -0.3334}" shape=record]
+	"11533865040+" [label="+"]
+	"11533865040+" -> 11533865040
+	11533865104 [label="{wixi | data 0.0000 | grad -0.3334}" shape=record]
+	11515973840 [label="{total | data -1.7885 | grad 0.0000}" shape=record]
+	"11515973840+" [label="+"]
+	"11515973840+" -> 11515973840
+	11533865168 [label="{total | data 0.4878 | grad -0.3334}" shape=record]
+	"11533865168+" [label="+"]
+	"11533865168+" -> 11533865168
+	11533865232 [label="{ | data -1.0000 | grad -0.0541}" shape=record]
+	11533865296 [label="{wixi | data 0.4878 | grad -0.3334}" shape=record]
+	"11533865296+" [label="+"]
+	"11533865296+" -> 11533865296
+	11516400016 [label="{wixi | data 0.0000 | grad -1.0215}" shape=record]
+	"11516400016+" [label="+"]
+	"11516400016+" -> 11516400016
+	11533865424 [label="{wixi | data -0.8162 | grad 0.0000}" shape=record]
+	"11533865424*" [label="*"]
+	"11533865424*" -> 11533865424
+	11533865488 [label="{ | data 1.0000 | grad 0.0000}" shape=record]
+	11516400272 [label="{wixi | data -0.7427 | grad -1.0215}" shape=record]
+	"11516400272+" [label="+"]
+	"11516400272+" -> 11516400272
+	11533865616 [label="{ | data 0.4878 | grad -0.3334}" shape=record]
+	"11533865616ReLU" [label=ReLU]
+	"11533865616ReLU" -> 11533865616
+	11533865680 [label="{wixi | data -0.3996 | grad 0.0000}" shape=record]
+	"11533865680+" [label="+"]
+	"11533865680+" -> 11533865680
+	11516367696 [label="{total | data 1.3648 | grad 1.0183}" shape=record]
+	"11516367696+" [label="+"]
+	"11516367696+" -> 11516367696
+	11516367888 [label="{ | data 0.0000 | grad 0.5148}" shape=record]
+	"11516367888ReLU" [label=ReLU]
+	"11516367888ReLU" -> 11516367888
+	11516400720 [label="{wixi | data 0.0000 | grad 0.0000}" shape=record]
+	"11516400720+" [label="+"]
+	"11516400720+" -> 11516400720
+	11516368016 [label="{wixi | data -0.7170 | grad 1.1052}" shape=record]
+	"11516368016+" [label="+"]
+	"11516368016+" -> 11516368016
+	11533866192 [label="{total | data -0.3996 | grad 0.0000}" shape=record]
+	"11533866192+" [label="+"]
+	"11533866192+" -> 11533866192
+	11515712784 [label="{wixi | data -0.1158 | grad 0.0000}" shape=record]
+	"11515712784+" [label="+"]
+	"11515712784+" -> 11515712784
+	11516400912 [label="{wixi | data 0.0000 | grad 0.0000}" shape=record]
+	"11516400912*" [label="*"]
+	"11516400912*" -> 11516400912
+	11533866320 [label="{wixi | data 0.3830 | grad 4.1399}" shape=record]
+	"11533866320*" [label="*"]
+	"11533866320*" -> 11533866320
+	11516401104 [label="{wixi | data 1.1984 | grad 1.5521}" shape=record]
+	"11516401104*" [label="*"]
+	"11516401104*" -> 11516401104
+	11533866512 [label="{ | data 1.0000 | grad 0.0000}" shape=record]
+	11516368464 [label="{wixi | data -0.5098 | grad 0.0000}" shape=record]
+	"11516368464*" [label="*"]
+	"11516368464*" -> 11516368464
+	11533866576 [label="{wixi | data 0.4927 | grad 4.1399}" shape=record]
+	"11533866576+" [label="+"]
+	"11533866576+" -> 11533866576
+	11533866640 [label="{wixi | data 0.4138 | grad 0.0000}" shape=record]
+	"11533866640*" [label="*"]
+	"11533866640*" -> 11533866640
+	11343419088 [label="{wi | data 0.4229 | grad 32.8910}" shape=record]
+	11533866704 [label="{wixi | data 0.0000 | grad 0.0000}" shape=record]
+	11533866768 [label="{wixi | data -0.4549 | grad 0.0000}" shape=record]
+	"11533866768*" [label="*"]
+	"11533866768*" -> 11533866768
+	11516368720 [label="{wixi | data 0.0694 | grad 1.1052}" shape=record]
+	"11516368720+" [label="+"]
+	"11516368720+" -> 11516368720
+	11533866832 [label="{wixi | data -0.3585 | grad 0.0000}" shape=record]
+	"11533866832*" [label="*"]
+	"11533866832*" -> 11533866832
+	11516368784 [label="{ | data 1.3648 | grad 1.0183}" shape=record]
+	"11516368784ReLU" [label=ReLU]
+	"11516368784ReLU" -> 11516368784
+	11516368912 [label="{wixi | data 1.5269 | grad 1.0183}" shape=record]
+	"11516368912+" [label="+"]
+	"11516368912+" -> 11516368912
+	11516401744 [label="{wixi | data -0.4543 | grad 1.4640}" shape=record]
+	"11516401744+" [label="+"]
+	"11516401744+" -> 11516401744
+	11533867088 [label="{wixi | data -0.0000 | grad 0.0000}" shape=record]
+	"11533867088*" [label="*"]
+	"11533867088*" -> 11533867088
+	11516369040 [label="{wixi | data -0.1621 | grad 1.0183}" shape=record]
+	"11516369040*" [label="*"]
+	"11516369040*" -> 11516369040
+	11533867152 [label="{wixi | data 0.1206 | grad 0.0000}" shape=record]
+	"11533867152+" [label="+"]
+	"11533867152+" -> 11533867152
+	11516369104 [label="{ | data 3.0000 | grad 0.2312}" shape=record]
+	11533867280 [label="{wixi | data -0.1573 | grad 0.0000}" shape=record]
+	"11533867280*" [label="*"]
+	"11533867280*" -> 11533867280
+	11533867344 [label="{wixi | data 0.1206 | grad 0.0000}" shape=record]
+	"11533867344*" [label="*"]
+	"11533867344*" -> 11533867344
+	11533867408 [label="{wixi | data -0.0367 | grad 0.0000}" shape=record]
+	"11533867408+" [label="+"]
+	"11533867408+" -> 11533867408
+	11533867472 [label="{wixi | data 0.1206 | grad 0.0000}" shape=record]
+	"11533867472+" [label="+"]
+	"11533867472+" -> 11533867472
+	11533867536 [label="{wixi | data 0.0000 | grad 0.0000}" shape=record]
+	"11533867536*" [label="*"]
+	"11533867536*" -> 11533867536
+	11533867600 [label="{total | data -0.0367 | grad 0.0000}" shape=record]
+	"11533867600+" [label="+"]
+	"11533867600+" -> 11533867600
+	11533867664 [label="{wixi | data -0.1621 | grad -0.3334}" shape=record]
+	"11533867664*" [label="*"]
+	"11533867664*" -> 11533867664
+	11516369616 [label="{ | data 1.4698 | grad 1.1497}" shape=record]
+	"11516369616ReLU" [label=ReLU]
+	"11516369616ReLU" -> 11516369616
+	11516402448 [label="{ | data 1.8521 | grad 1.7042}" shape=record]
+	"11516402448ReLU" [label=ReLU]
+	"11516402448ReLU" -> 11516402448
+	11533867856 [label="{ | data 0.0000 | grad -0.5070}" shape=record]
+	"11533867856ReLU" [label=ReLU]
+	"11533867856ReLU" -> 11533867856
+	11516402768 [label="{wixi | data -0.3963 | grad 1.7042}" shape=record]
+	"11516402768*" [label="*"]
+	"11516402768*" -> 11516402768
+	11533868112 [label="{ | data -1.0000 | grad 0.0000}" shape=record]
+	11533868240 [label="{wixi | data -0.3585 | grad 0.0000}" shape=record]
+	"11533868240+" [label="+"]
+	"11533868240+" -> 11533868240
+	11516402960 [label="{wixi | data -0.4618 | grad 1.4640}" shape=record]
+	"11516402960*" [label="*"]
+	"11516402960*" -> 11516402960
+	11533868304 [label="{wixi | data -0.0269 | grad -0.3764}" shape=record]
+	"11533868304*" [label="*"]
+	"11533868304*" -> 11533868304
+	11516370256 [label="{ | data -1.0000 | grad 0.0000}" shape=record]
+	11533868368 [label="{wixi | data -0.2032 | grad 4.1399}" shape=record]
+	"11533868368*" [label="*"]
+	"11533868368*" -> 11533868368
+	11533868496 [label="{wixi | data 0.8869 | grad -0.3764}" shape=record]
+	"11533868496+" [label="+"]
+	"11533868496+" -> 11533868496
+	11516370448 [label="{ | data 3.0000 | grad 0.4573}" shape=record]
+	11533868624 [label="{wixi | data 0.0000 | grad 0.0000}" shape=record]
+	11516403408 [label="{total | data 0.6612 | grad -1.0215}" shape=record]
+	"11516403408+" [label="+"]
+	"11516403408+" -> 11516403408
+	11533868752 [label="{ | data 1.0000 | grad 0.0101}" shape=record]
+	11533868816 [label="{wixi | data 0.0000 | grad -0.3764}" shape=record]
+	11533868880 [label="{total | data 0.6367 | grad -0.3764}" shape=record]
+	"11533868880+" [label="+"]
+	"11533868880+" -> 11533868880
+	11516403600 [label="{wixi | data 0.0075 | grad 1.4640}" shape=record]
+	"11516403600*" [label="*"]
+	"11516403600*" -> 11516403600
+	11533868944 [label="{ | data 1.0000 | grad -0.3338}" shape=record]
+	11533869072 [label="{wixi | data 0.8869 | grad -0.3764}" shape=record]
+	"11533869072*" [label="*"]
+	"11533869072*" -> 11533869072
+	11533869136 [label="{wixi | data -0.2233 | grad -0.3764}" shape=record]
+	"11533869136*" [label="*"]
+	"11533869136*" -> 11533869136
+	11516403856 [label="{total | data 2.0674 | grad 1.5521}" shape=record]
+	"11516403856+" [label="+"]
+	"11516403856+" -> 11516403856
+	11533869200 [label="{ | data 0.6367 | grad -0.3764}" shape=record]
+	"11533869200ReLU" [label=ReLU]
+	"11533869200ReLU" -> 11533869200
+	11533869264 [label="{wixi | data 0.6367 | grad -0.3764}" shape=record]
+	"11533869264+" [label="+"]
+	"11533869264+" -> 11533869264
+	11533869328 [label="{wixi | data 0.0553 | grad 0.0000}" shape=record]
+	"11533869328+" [label="+"]
+	"11533869328+" -> 11533869328
+	11516404048 [label="{wixi | data 0.0000 | grad 1.5521}" shape=record]
+	"11516404048+" [label="+"]
+	"11516404048+" -> 11516404048
+	11533869392 [label="{wixi | data 0.0000 | grad 0.3344}" shape=record]
+	"11533869392*" [label="*"]
+	"11533869392*" -> 11533869392
+	11343061584 [label="{wi | data -0.2313 | grad 4.7511}" shape=record]
+	11516404368 [label="{wixi | data 0.6612 | grad -1.0215}" shape=record]
+	"11516404368+" [label="+"]
+	"11516404368+" -> 11516404368
+	11516404560 [label="{wixi | data 0.0000 | grad 1.5521}" shape=record]
+	11515716496 [label="{ | data 0.0000 | grad 2.1503}" shape=record]
+	"11515716496ReLU" [label=ReLU]
+	"11515716496ReLU" -> 11515716496
+	11516404624 [label="{wixi | data 0.0000 | grad 0.0000}" shape=record]
+	11516404752 [label="{wixi | data 0.0000 | grad 1.7042}" shape=record]
+	11533870160 [label="{wixi | data 0.0000 | grad 0.3344}" shape=record]
+	11475739792 [label="{ | data 2.0000 | grad 0.0000}" shape=record]
+	11516404880 [label="{wixi | data 0.0000 | grad 0.0000}" shape=record]
+	11533870224 [label="{ | data 2.4096 | grad 4.8193}" shape=record]
+	"11533870224+" [label="+"]
+	"11533870224+" -> 11533870224
+	11533870288 [label="{wixi | data 0.0000 | grad -0.5579}" shape=record]
+	"11533870288+" [label="+"]
+	"11533870288+" -> 11533870288
+	11516405072 [label="{wixi | data 1.8829 | grad 1.7042}" shape=record]
+	"11516405072*" [label="*"]
+	"11516405072*" -> 11516405072
+	11533870416 [label="{ | data 0.4927 | grad 4.1399}" shape=record]
+	"11533870416ReLU" [label=ReLU]
+	"11533870416ReLU" -> 11533870416
+	11516405200 [label="{ | data 3.0000 | grad 0.0000}" shape=record]
+	11516405264 [label="{wixi | data -0.0636 | grad 0.0000}" shape=record]
+	"11516405264+" [label="+"]
+	"11516405264+" -> 11516405264
+	11516405392 [label="{wixi | data 0.0000 | grad 1.4640}" shape=record]
+	"11516405392+" [label="+"]
+	"11516405392+" -> 11516405392
+	11533870736 [label="{total | data 0.3529 | grad 0.3344}" shape=record]
+	"11533870736+" [label="+"]
+	"11533870736+" -> 11533870736
+	11533871056 [label="{ | data 0.3529 | grad 0.3344}" shape=record]
+	"11533871056ReLU" [label=ReLU]
+	"11533871056ReLU" -> 11533871056
+	11516405776 [label="{wixi | data 1.8521 | grad 1.7042}" shape=record]
+	"11516405776+" [label="+"]
+	"11516405776+" -> 11516405776
+	11533871120 [label="{wixi | data 0.1856 | grad -0.5579}" shape=record]
+	"11533871120*" [label="*"]
+	"11533871120*" -> 11533871120
+	11475740752 [label="{wixi | data -0.4626 | grad 0.0000}" shape=record]
+	"11475740752*" [label="*"]
+	"11475740752*" -> 11475740752
+	11533871184 [label="{ | data -1.0000 | grad -0.5579}" shape=record]
+	11515816144 [label="{ | data 3.0000 | grad 0.0000}" shape=record]
+	11533871312 [label="{ | data 5.8063 | grad 1.0000}" shape=record]
+	"11533871312(2.409635)²" [label="(2.409635)²"]
+	"11533871312(2.409635)²" -> 11533871312
+	11533871376 [label="{wixi | data -0.2655 | grad 0.3344}" shape=record]
+	"11533871376+" [label="+"]
+	"11533871376+" -> 11533871376
+	11516406096 [label="{ | data 0.6612 | grad -1.0215}" shape=record]
+	"11516406096ReLU" [label=ReLU]
+	"11516406096ReLU" -> 11516406096
+	11533871440 [label="{wixi | data -0.0000 | grad 0.3344}" shape=record]
+	"11533871440*" [label="*"]
+	"11533871440*" -> 11533871440
+	11516406160 [label="{wixi | data 0.8422 | grad 1.5521}" shape=record]
+	"11516406160+" [label="+"]
+	"11516406160+" -> 11516406160
+	11533871568 [label="{wixi | data 0.0000 | grad 0.3344}" shape=record]
+	"11533871568+" [label="+"]
+	"11533871568+" -> 11533871568
+	6426061520 [label="{wi | data 0.8162 | grad 9.5022}" shape=record]
+	11516406480 [label="{wixi | data -0.7663 | grad -1.0215}" shape=record]
+	"11516406480+" [label="+"]
+	"11516406480+" -> 11516406480
+	11533871824 [label="{wixi | data -0.2655 | grad 0.3344}" shape=record]
+	"11533871824+" [label="+"]
+	"11533871824+" -> 11533871824
+	11533871952 [label="{wixi | data 0.6184 | grad 0.3344}" shape=record]
+	"11533871952*" [label="*"]
+	"11533871952*" -> 11533871952
+	11516373904 [label="{wixi | data -1.7885 | grad 0.0000}" shape=record]
+	"11516373904+" [label="+"]
+	"11516373904+" -> 11516373904
+	11533872016 [label="{wixi | data -0.2655 | grad 0.3344}" shape=record]
+	"11533872016*" [label="*"]
+	"11533872016*" -> 11533872016
+	11533872080 [label="{wixi | data 0.3529 | grad 0.3344}" shape=record]
+	"11533872080+" [label="+"]
+	"11533872080+" -> 11533872080
+	11516374096 [label="{wixi | data 1.4698 | grad 1.1497}" shape=record]
+	"11516374096+" [label="+"]
+	"11516374096+" -> 11516374096
+	11533872208 [label="{wixi | data 0.0000 | grad -0.5081}" shape=record]
+	11533872336 [label="{wixi | data 0.0000 | grad -0.4793}" shape=record]
+	11516374288 [label="{ | data 3.0000 | grad -0.0309}" shape=record]
+	11516407056 [label="{wixi | data 2.0674 | grad 1.5521}" shape=record]
+	"11516407056+" [label="+"]
+	"11516407056+" -> 11516407056
+	11533872400 [label="{total | data 0.8202 | grad -0.5081}" shape=record]
+	"11533872400+" [label="+"]
+	"11533872400+" -> 11533872400
+	6172929360 [label="{wixi | data -0.6939 | grad 0.0000}" shape=record]
+	"6172929360*" [label="*"]
+	"6172929360*" -> 6172929360
+	11533872464 [label="{wixi | data 0.0000 | grad -0.5081}" shape=record]
+	"11533872464*" [label="*"]
+	"11533872464*" -> 11533872464
+	11516407184 [label="{wixi | data 0.3374 | grad 0.0000}" shape=record]
+	"11516407184*" [label="*"]
+	"11516407184*" -> 11516407184
+	11533872528 [label="{wixi | data 0.3010 | grad -0.5081}" shape=record]
+	"11533872528+" [label="+"]
+	"11533872528+" -> 11533872528
+	11533872592 [label="{wixi | data 0.8202 | grad -0.5081}" shape=record]
+	"11533872592+" [label="+"]
+	"11533872592+" -> 11533872592
+	11533872656 [label="{wixi | data 0.0000 | grad -0.5081}" shape=record]
+	"11533872656+" [label="+"]
+	"11533872656+" -> 11533872656
+	11516407376 [label="{wixi | data 1.4866 | grad 1.7042}" shape=record]
+	"11516407376+" [label="+"]
+	"11516407376+" -> 11516407376
+	11533872784 [label="{wixi | data 0.5192 | grad -0.5081}" shape=record]
+	"11533872784*" [label="*"]
+	"11533872784*" -> 11533872784
+	11516407504 [label="{wixi | data -0.3631 | grad 0.0000}" shape=record]
+	"11516407504*" [label="*"]
+	"11516407504*" -> 11516407504
+	11533872848 [label="{wixi | data 0.3010 | grad -0.5081}" shape=record]
+	"11533872848*" [label="*"]
+	"11533872848*" -> 11533872848
+	11516374800 [label="{ | data 2.0000 | grad 1.0197}" shape=record]
+	11516379088 [label="{ | data -1.0000 | grad 0.1651}" shape=record]
+	11533872912 [label="{wixi | data 0.3010 | grad -0.5081}" shape=record]
+	"11533872912+" [label="+"]
+	"11533872912+" -> 11533872912
+	11516407632 [label="{wixi | data 0.0000 | grad 1.7042}" shape=record]
+	"11516407632+" [label="+"]
+	"11516407632+" -> 11516407632
+	11533872976 [label="{ | data 0.8202 | grad -0.5081}" shape=record]
+	"11533872976ReLU" [label=ReLU]
+	"11533872976ReLU" -> 11533872976
+	11516407824 [label="{wixi | data 0.2994 | grad 0.0000}" shape=record]
+	"11516407824+" [label="+"]
+	"11516407824+" -> 11516407824
+	11533873168 [label="{wixi | data 0.0000 | grad -0.4793}" shape=record]
+	"11533873168*" [label="*"]
+	"11533873168*" -> 11533873168
+	11516407952 [label="{total | data 1.8521 | grad 1.7042}" shape=record]
+	"11516407952+" [label="+"]
+	"11516407952+" -> 11516407952
+	11516408016 [label="{total | data -0.1158 | grad 0.0000}" shape=record]
+	"11516408016+" [label="+"]
+	"11516408016+" -> 11516408016
+	11533873360 [label="{total | data 0.2161 | grad -0.4793}" shape=record]
+	"11533873360+" [label="+"]
+	"11533873360+" -> 11533873360
+	11516408144 [label="{total | data -0.0636 | grad 0.0000}" shape=record]
+	"11516408144+" [label="+"]
+	"11516408144+" -> 11516408144
+	11533873488 [label="{ | data 0.0778 | grad 1.0000}" shape=record]
+	"11533873488(-0.278958)²" [label="(-0.278958)²"]
+	"11533873488(-0.278958)²" -> 11533873488
+	11516408208 [label="{wixi | data -0.0236 | grad -1.0215}" shape=record]
+	"11516408208*" [label="*"]
+	"11516408208*" -> 11516408208
+	11516408272 [label="{ | data 2.0674 | grad 1.5521}" shape=record]
+	"11516408272ReLU" [label=ReLU]
+	"11516408272ReLU" -> 11516408272
+	11533873680 [label="{wixi | data 0.3811 | grad -0.4793}" shape=record]
+	"11533873680*" [label="*"]
+	"11533873680*" -> 11533873680
+	6426686096 [label="{wixi | data -0.6939 | grad 0.0000}" shape=record]
+	"6426686096+" [label="+"]
+	"6426686096+" -> 6426686096
+	11516408464 [label="{total | data 0.4256 | grad 1.4640}" shape=record]
+	"11516408464+" [label="+"]
+	"11516408464+" -> 11516408464
+	11516375760 [label="{wixi | data 1.2413 | grad 1.1052}" shape=record]
+	"11516375760*" [label="*"]
+	"11516375760*" -> 11516375760
+	11533873872 [label="{wixi | data -0.1650 | grad -0.4793}" shape=record]
+	"11533873872*" [label="*"]
+	"11533873872*" -> 11533873872
+	11533873936 [label="{ | data 0.7261 | grad 1.0000}" shape=record]
+	"11533873936(0.852121)²" [label="(0.852121)²"]
+	"11533873936(0.852121)²" -> 11533873936
+	11516411856 [label="{wixi | data -0.4618 | grad 1.4640}" shape=record]
+	"11516411856+" [label="+"]
+	"11516411856+" -> 11516411856
+	11516408592 [label="{wixi | data 0.0000 | grad 1.4640}" shape=record]
+	11516375888 [label="{total | data 1.4698 | grad 1.1497}" shape=record]
+	"11516375888+" [label="+"]
+	"11516375888+" -> 11516375888
+	11533874000 [label="{wixi | data -0.1650 | grad -0.4793}" shape=record]
+	"11533874000+" [label="+"]
+	"11533874000+" -> 11533874000
+	11516376016 [label="{ | data -1.0000 | grad 0.2567}" shape=record]
+	11516408848 [label="{wixi | data 0.0000 | grad 1.4640}" shape=record]
+	"11516408848*" [label="*"]
+	"11516408848*" -> 11516408848
+	11533874256 [label="{wixi | data 0.0000 | grad -0.4793}" shape=record]
+	"11533874256*" [label="*"]
+	"11533874256*" -> 11533874256
+	11515720848 [label="{wixi | data 0.4081 | grad 0.0000}" shape=record]
+	"11515720848*" [label="*"]
+	"11515720848*" -> 11515720848
+	11533874320 [label="{wixi | data 0.0000 | grad 0.0000}" shape=record]
+	"11533874320+" [label="+"]
+	"11533874320+" -> 11533874320
+	11516409040 [label="{wixi | data 0.4256 | grad 1.4640}" shape=record]
+	"11516409040+" [label="+"]
+	"11516409040+" -> 11516409040
+	11533874384 [label="{wixi | data 0.2161 | grad -0.4793}" shape=record]
+	"11533874384+" [label="+"]
+	"11533874384+" -> 11533874384
+	11533874512 [label="{wixi | data 0.0000 | grad -0.4793}" shape=record]
+	"11533874512+" [label="+"]
+	"11533874512+" -> 11533874512
+	11533874576 [label="{ | data 13.3955 | grad 1.0000}" shape=record]
+	"11533874576+" [label="+"]
+	"11533874576+" -> 11533874576
+	11516409232 [label="{wixi | data 0.3656 | grad 1.7042}" shape=record]
+	"11516409232*" [label="*"]
+	"11516409232*" -> 11516409232
+	11516376464 [label="{ | data -1.0000 | grad 0.5027}" shape=record]
+	11516376528 [label="{wixi | data -0.2233 | grad 1.1497}" shape=record]
+	"11516376528*" [label="*"]
+	"11516376528*" -> 11516376528
+	11533874704 [label="{ | data 0.2161 | grad -0.4793}" shape=record]
+	"11533874704ReLU" [label=ReLU]
+	"11533874704ReLU" -> 11533874704
+	11533874768 [label="{ | data 3.5594 | grad 7.1188}" shape=record]
+	"11533874768+" [label="+"]
+	"11533874768+" -> 11533874768
+	11516376720 [label="{wixi | data 0.8459 | grad 1.0183}" shape=record]
+	"11516376720+" [label="+"]
+	"11516376720+" -> 11516376720
+	11533874832 [label="{wixi | data -0.2115 | grad -0.5579}" shape=record]
+	"11533874832*" [label="*"]
+	"11533874832*" -> 11533874832
+	11533874896 [label="{ | data 12.6694 | grad 1.0000}" shape=record]
+	"11533874896(3.559415)²" [label="(3.559415)²"]
+	"11533874896(3.559415)²" -> 11533874896
+	6426687248 [label="{ | data -1.0000 | grad 0.0000}" shape=record]
+	11516409616 [label="{wixi | data 0.8798 | grad 1.4640}" shape=record]
+	"11516409616*" [label="*"]
+	"11516409616*" -> 11516409616
+	11516376848 [label="{ | data 0.0694 | grad 1.1052}" shape=record]
+	"11516376848ReLU" [label=ReLU]
+	"11516376848ReLU" -> 11516376848
+	11533874960 [label="{wixi | data -0.2115 | grad -0.5579}" shape=record]
+	"11533874960+" [label="+"]
+	"11533874960+" -> 11533874960
+	11516376912 [label="{wixi | data -0.4549 | grad 1.1052}" shape=record]
+	"11516376912*" [label="*"]
+	"11516376912*" -> 11516376912
+	11515819856 [label="{wixi | data -0.4626 | grad 0.0000}" shape=record]
+	"11515819856+" [label="+"]
+	"11515819856+" -> 11515819856
+	11516409680 [label="{wixi | data 0.0000 | grad 1.5521}" shape=record]
+	"11516409680*" [label="*"]
+	"11516409680*" -> 11516409680
+	11516376976 [label="{wixi | data 1.7738 | grad 1.1497}" shape=record]
+	"11516376976*" [label="*"]
+	"11516376976*" -> 11516376976
+	11516409808 [label="{wixi | data 1.4275 | grad -1.0215}" shape=record]
+	"11516409808*" [label="*"]
+	"11516409808*" -> 11516409808
+	11533875152 [label="{ | data -1.0000 | grad 1.7042}" shape=record]
+	11533875216 [label="{ | data 19.2019 | grad 1.0000}" shape=record]
+	"11533875216+" [label="+"]
+	"11533875216+" -> 11533875216
+	11516377168 [label="{wixi | data 0.5243 | grad 1.1052}" shape=record]
+	"11516377168+" [label="+"]
+	"11516377168+" -> 11516377168
+	11533875280 [label="{wixi | data 0.5354 | grad -0.5579}" shape=record]
+	"11533875280+" [label="+"]
+	"11533875280+" -> 11533875280
+	11533875344 [label="{wixi | data 0.0000 | grad -0.5579}" shape=record]
+	"11533875344*" [label="*"]
+	"11533875344*" -> 11533875344
+	11515721936 [label="{wixi | data -0.5239 | grad 0.0000}" shape=record]
+	"11515721936+" [label="+"]
+	"11515721936+" -> 11515721936
+	11516410064 [label="{wixi | data 0.8422 | grad 1.5521}" shape=record]
+	"11516410064*" [label="*"]
+	"11516410064*" -> 11516410064
+	11516377360 [label="{ | data 2.0000 | grad -0.3962}" shape=record]
+	11533875536 [label="{wixi | data 0.0000 | grad -0.5579}" shape=record]
+	11516377488 [label="{wixi | data 1.7738 | grad 1.1497}" shape=record]
+	"11516377488+" [label="+"]
+	"11516377488+" -> 11516377488
+	11533875600 [label="{wixi | data -0.1650 | grad -0.4793}" shape=record]
+	"11533875600+" [label="+"]
+	"11533875600+" -> 11533875600
+	11533875664 [label="{total | data 0.7210 | grad -0.5579}" shape=record]
+	"11533875664+" [label="+"]
+	"11533875664+" -> 11533875664
+	11533875792 [label="{ | data 0.7261 | grad 1.0000}" shape=record]
+	"11533875792+" [label="+"]
+	"11533875792+" -> 11533875792
+	11516377680 [label="{wixi | data 0.0000 | grad 1.0183}" shape=record]
+	11516377744 [label="{wixi | data -0.9723 | grad 0.0000}" shape=record]
+	"11516377744+" [label="+"]
+	"11516377744+" -> 11516377744
+	6426065808 [label="{wi | data -0.1699 | grad 9.5022}" shape=record]
+	11516378000 [label="{total | data 0.0694 | grad 1.1052}" shape=record]
+	"11516378000+" [label="+"]
+	"11516378000+" -> 11516378000
+	11533876112 [label="{wixi | data 0.7210 | grad -0.5579}" shape=record]
+	"11533876112+" [label="+"]
+	"11533876112+" -> 11533876112
+	11516410832 [label="{ | data 0.4256 | grad 1.4640}" shape=record]
+	"11516410832ReLU" [label=ReLU]
+	"11516410832ReLU" -> 11516410832
+	11533876240 [label="{ | data 0.0000 | grad 1.0000}" shape=record]
+	11533876368 [label="{ | data 1.0000 | grad 7.1188}" shape=record]
+	11533876432 [label="{wixi | data 0.0000 | grad -0.5081}" shape=record]
+	"11533876432*" [label="*"]
+	"11533876432*" -> 11533876432
+	11516378384 [label="{wixi | data 1.6931 | grad 1.1497}" shape=record]
+	"11516378384+" [label="+"]
+	"11516378384+" -> 11516378384
+	11516378448 [label="{wixi | data 1.3648 | grad 1.0183}" shape=record]
+	"11516378448+" [label="+"]
+	"11516378448+" -> 11516378448
+	11533876560 [label="{wixi | data 0.7469 | grad -0.5579}" shape=record]
+	"11533876560*" [label="*"]
+	"11533876560*" -> 11533876560
+	11533876752 [label="{Loss | data 19.2797 | grad 1.0000}" shape=record]
+	"11533876752+" [label="+"]
+	"11533876752+" -> 11533876752
+	11516378640 [label="{wixi | data 0.0000 | grad 1.1052}" shape=record]
+	11533876816 [label="{ | data -0.2790 | grad -0.5579}" shape=record]
+	"11533876816+" [label="+"]
+	"11533876816+" -> 11533876816
+	11516411536 [label="{wixi | data -0.0380 | grad 0.0000}" shape=record]
+	"11516411536*" [label="*"]
+	"11516411536*" -> 11516411536
+	11533877008 [label="{ | data 0.7210 | grad -0.5579}" shape=record]
+	"11533877008ReLU" [label=ReLU]
+	"11533877008ReLU" -> 11533877008
+	11533877136 [label="{ | data 0.8521 | grad 1.7042}" shape=record]
+	"11533877136+" [label="+"]
+	"11533877136+" -> 11533877136
+	11533877200 [label="{ | data 1.0000 | grad 4.8193}" shape=record]
+	11533882576 -> "11533882384+"
+	11533874896 -> "11533874576+"
+	11533866768 -> "11533865680+"
+	11533888400 -> "11533889040+"
+	11533866192 -> "11533863056ReLU"
+	11515716496 -> "11533879248*"
+	11516376016 -> "11516376528*"
+	11285631568 -> "11533861456+"
+	11285630608 -> "11516399632*"
+	11533878352 -> "11533879632*"
+	11516379088 -> "11516369040*"
+	11533879696 -> "11533891536+"
+	11533891792 -> "11533887312+"
+	11533879760 -> "11533878992+"
+	11533865040 -> "11533864592+"
+	11533866704 -> "11533868240+"
+	11533890960 -> "11533891088+"
+	11533893072 -> "11533878544+"
+	11533879888 -> "11533885008*"
+	11533882064 -> "11533880912+"
+	11533864528 -> "11533869392*"
+	11533872400 -> "11533872976ReLU"
+	11533875280 -> "11533876112+"
+	11533872080 -> "11533870736+"
+	11533862096 -> "11533861136+"
+	11533874832 -> "11533874960+"
+	11533868496 -> "11533864464+"
+	11533874512 -> "11533875600+"
+	11533864016 -> "11533863888*"
+	11516378384 -> "11516374096+"
+	11533881616 -> "11533888400*"
+	11533879056 -> "11533879504*"
+	6426061520 -> "11515720848*"
+	11285628944 -> "11516346448*"
+	11285630736 -> "11516403856+"
+	11475739792 -> "11475740752*"
+	11533869392 -> "11533871568+"
+	11533872528 -> "11533872592+"
+	11516354640 -> "11516358672+"
+	11285630224 -> "11533880656*"
+	11533878608 -> "11533878800+"
+	11533891536 -> "11533891920+"
+	6426065808 -> "11516368464*"
+	6426687248 -> "11343735248*"
+	11533861712 -> "11533861456+"
+	11516368720 -> "11516378000+"
+	11285631120 -> "11533883152+"
+	11516355472 -> "11516357264*"
+	11533868816 -> "11533868496+"
+	11285630224 -> "11516408208*"
+	11533861776 -> "11533861840+"
+	11516367888 -> "11516400912*"
+	11533880912 -> "11533882512+"
+	11533889168 -> "11533889232*"
+	11516348176 -> "11516357456ReLU"
+	11285631312 -> "11516398288*"
+	11343061584 -> "11475740752*"
+	11516395920 -> "11516400272+"
+	11533872208 -> "11533872656+"
+	11533893392 -> "11533892496+"
+	11533878032 -> "11533877520+"
+	11515721936 -> "11515712784+"
+	11533877200 -> "11533870224+"
+	11516358672 -> "11516349392+"
+	11533883664 -> "11533884880+"
+	11516346448 -> "11516349392+"
+	11285629328 -> "11516364368*"
+	11285630224 -> "11533871440*"
+	11533890256 -> "11533892048*"
+	11533868752 -> "11533868304*"
+	11285630736 -> "11533881168+"
+	11533883152 -> "11533883344ReLU"
+	11533872592 -> "11533872400+"
+	11533872336 -> "11533874512+"
+	11516402768 -> "11516398864+"
+	11533877520 -> "11533878352ReLU"
+	11533886352 -> "11533886416+"
+	11285630864 -> "11533862096*"
+	11285631568 -> "11533875664+"
+	11533864464 -> "11533869264+"
+	11285630352 -> "11533890768+"
+	11533877008 -> "11533876816+"
+	11533889808 -> "11533889872*"
+	11533871376 -> "11533871824+"
+	11516368016 -> "11516377168+"
+	11533863248 -> "11533864592+"
+	11516378000 -> "11516376848ReLU"
+	11533886800 -> "11533862096*"
+	11533892176 -> "11533890768+"
+	11533865616 -> "11533867344*"
+	11533893136 -> "11533888848+"
+	11515720848 -> "11515712784+"
+	11533863056 -> "11533867088*"
+	11533878992 -> "11533879888ReLU"
+	11285631376 -> "11533861392*"
+	11533880528 -> "11533880592+"
+	11285629840 -> "11516411536*"
+	11533861456 -> "11533861968ReLU"
+	11533866640 -> "11533869328+"
+	11285629776 -> "11516407184*"
+	11533865232 -> "11533867664*"
+	11516407184 -> "11516396944+"
+	11533887184 -> "11533882192*"
+	11533889296 -> "11533887120+"
+	11533869200 -> "11533873680*"
+	11284099600 -> "11515973840+"
+	11515816144 -> "11516368464*"
+	11285630544 -> "11516410064*"
+	11516357264 -> "11516354192+"
+	11516403600 -> "11516401744+"
+	11533864528 -> "11533873168*"
+	11533869200 -> "11533867280*"
+	11533888976 -> "11533885456*"
+	11533865296 -> "11533865168+"
+	11533890256 -> "11533893392*"
+	11285628688 -> "11516354640*"
+	11516398864 -> "11516407376+"
+	11533891088 -> "11533889744+"
+	11533869136 -> "11533869264+"
+	11285630672 -> "11533872784*"
+	11533888912 -> "11533862352*"
+	11533873488 -> "11533876752+"
+	11285628944 -> "11533867664*"
+	11285631568 -> "11516407952+"
+	11533880656 -> "11533880720+"
+	11533883536 -> "11533883856+"
+	11533885776 -> "11533886416+"
+	11533875792 -> "11533874576+"
+	11285630608 -> "11533893520*"
+	11533868112 -> "11533866768*"
+	11285629200 -> "11533866768*"
+	11515716496 -> "11533884304*"
+	11285630928 -> "11533868368*"
+	11533875536 -> "11533870288+"
+	11516376464 -> "11516376912*"
+	11533865168 -> "11533865616ReLU"
+	11533884432 -> "11533884560+"
+	11516406480 -> "11516404368+"
+	11533876240 -> "11533875792+"
+	11533865488 -> "11533866832*"
+	11533890640 -> "11533890832+"
+	11533879824 -> "11533890256ReLU"
+	11285628880 -> "11516349904+"
+	11516407056 -> "11516403856+"
+	6426061520 -> "11533886672*"
+	11516378448 -> "11516367696+"
+	11533892368 -> "11533862800*"
+	11533887824 -> "11533891600*"
+	11533880336 -> "11533880848ReLU"
+	11516368784 -> "11516402960*"
+	11516369616 -> "11516409808*"
+	11533867856 -> "11533875344*"
+	11533892880 -> "11533892496+"
+	11533872848 -> "11533872912+"
+	11285630096 -> "11533879696*"
+	11516369616 -> "11516407504*"
+	11533870416 -> "11533862224*"
+	11516376976 -> "11516377488+"
+	11533862224 -> "11533861712+"
+	11533865680 -> "11533866192+"
+	11533883088 -> "11533884432+"
+	11516369616 -> "11516401104*"
+	11533886672 -> "11533886736+"
+	11533887632 -> "11533887696*"
+	11285628688 -> "11516364688*"
+	11533869264 -> "11533868880+"
+	11516397904 -> "11516400016+"
+	11343419088 -> "11516357264*"
+	11533880784 -> "11533880336+"
+	11533864912 -> "11533863248*"
+	11285631120 -> "11533888208+"
+	11285630544 -> "11533872848*"
+	11533865616 -> "11533872848*"
+	11516409232 -> "11516405776+"
+	11516396944 -> "11516407824+"
+	11516376848 -> "11516403600*"
+	11533887824 -> "11533868368*"
+	11533868880 -> "11533869200ReLU"
+	11284099600 -> "11533863632+"
+	11516409616 -> "11516409040+"
+	11285628816 -> "11516364240*"
+	11285631440 -> "11533883600*"
+	11285629776 -> "11533879952*"
+	11285630352 -> "11516403408+"
+	11516364368 -> "11516378384+"
+	11533867344 -> "11533867472+"
+	11285628944 -> "11533887696*"
+	11516398544 -> "11516407056+"
+	11285629456 -> "11516375888+"
+	11516367696 -> "11516368784ReLU"
+	11285630672 -> "11533893392*"
+	11533875152 -> "11533877136+"
+	11533892048 -> "11533892176+"
+	11516410064 -> "11516406160+"
+	11516370256 -> "11516364432*"
+	11533869200 -> "11533872784*"
+	11285809360 -> "11515819856+"
+	11516377168 -> "11516368720+"
+	11533864208 -> "11533864272*"
+	11533878160 -> "11533878032+"
+	11285630352 -> "11533870736+"
+	11533877328 -> "11533877712*"
+	11533866512 -> "11533866640*"
+	11533879056 -> "11533884688*"
+	11533879952 -> "11533879440+"
+	11285631312 -> "11533875344*"
+	11533887824 -> "11533890640*"
+	11533868368 -> "11533863184+"
+	11285631504 -> "11533871120*"
+	11533868944 -> "11533869072*"
+	11285630928 -> "11533873872*"
+	11516404880 -> "11516400720+"
+	11516377680 -> "11516376720+"
+	11285629904 -> "11533867280*"
+	11515712784 -> "11516408016+"
+	11516349456 -> "11516354192+"
+	11533888272 -> "11533889616+"
+	11533886544 -> "11533886736+"
+	11533888784 -> "11533889296+"
+	11343061584 -> "11533886352*"
+	6426065808 -> "11533864272*"
+	11533887248 -> "11533887568+"
+	11516404048 -> "11516406160+"
+	11533887568 -> "11533887504+"
+	11533879056 -> "11533880656*"
+	11285630096 -> "11533869392*"
+	11533884944 -> "11533883472ReLU"
+	11533878352 -> "11533877968*"
+	11285629200 -> "11533889232*"
+	11533865424 -> "11533864400+"
+	11533864528 -> "11533876432*"
+	11533879312 -> "11533879760+"
+	11285629328 -> "11533868304*"
+	11533865104 -> "11533865040+"
+	11516359888 -> "11516346448*"
+	11516410832 -> "11516409232*"
+	11533880464 -> "11533880592+"
+	11285630736 -> "11533892752+"
+	11516376528 -> "11516374096+"
+	11285629008 -> "11533866640*"
+	11533884880 -> "11533883152+"
+	11516368464 -> "11516377744+"
+	11516400272 -> "11516406480+"
+	11533861904 -> "11533866576+"
+	11533885008 -> "11533885072+"
+	11343735248 -> "11515721936+"
+	11285631504 -> "11516409232*"
+	11533883344 -> "11533885520*"
+	11285629904 -> "11533879632*"
+	11285630224 -> "11533891792*"
+	11285630992 -> "11516403600*"
+	11516367888 -> "11516409680*"
+	11533867472 -> "11533867152+"
+	11533889680 -> "11533889616+"
+	11516408016 -> "11515716496ReLU"
+	11285631568 -> "11533884944+"
+	11533867280 -> "11533867408+"
+	11285631376 -> "11516402768*"
+	11516369040 -> "11516378448+"
+	11533861840 -> "11533862160+"
+	11533861136 -> "11533863184+"
+	11285631376 -> "11533885200*"
+	11516364240 -> "11516368016+"
+	11516378640 -> "11516368016+"
+	11533887056 -> "11533887248+"
+	11285630864 -> "11533873168*"
+	11285630608 -> "11533882256*"
+	11533864400 -> "11533863632+"
+	11533886736 -> "11533886160+"
+	11516409808 -> "11516404368+"
+	11533889744 -> "11533891216ReLU"
+	11516375760 -> "11516377168+"
+	11516408208 -> "11516406480+"
+	11533881168 -> "11533882704ReLU"
+	11533884688 -> "11533885136+"
+	11516398288 -> "11516407632+"
+	11285629840 -> "11533867088*"
+	11533867152 -> "11533867408+"
+	11516368912 -> "11516378448+"
+	11533864592 -> "11533865296+"
+	11533891024 -> "11533891088+"
+	11516376912 -> "11516368720+"
+	11285630672 -> "11533882576*"
+	11533876816 -> "11533873488(-0.278958)²"
+	11533871056 -> "11533874832*"
+	11285631120 -> "11533873360+"
+	11533865616 -> "11533872016*"
+	11516374096 -> "11516375888+"
+	11285630352 -> "11533880336+"
+	11533862800 -> "11533862160+"
+	11285629648 -> "11533890576*"
+	11533881424 -> "11533882320+"
+	11533890896 -> "11533890960+"
+	11533877904 -> "11533878160+"
+	11285629392 -> "11516376528*"
+	11533877776 -> "11533878096*"
+	11533879440 -> "11533879312+"
+	11533874768 -> "11533874896(3.559415)²"
+	11516405264 -> "11516408144+"
+	11285628816 -> "11533866832*"
+	11516357456 -> "11533882064*"
+	11533863184 -> "11533861904+"
+	11285629968 -> "11533878992+"
+	11533884560 -> "11533885136+"
+	11533880848 -> "11533885200*"
+	11533887120 -> "11533888912ReLU"
+	11533881680 -> "11533886096+"
+	11516376720 -> "11516368912+"
+	11533874384 -> "11533873360+"
+	11533893584 -> "11533893072*"
+	11516404368 -> "11516403408+"
+	6426065808 -> "11343735248*"
+	11285629264 -> "11516376976*"
+	11516403856 -> "11516408272ReLU"
+	11285631376 -> "11533874832*"
+	11285630160 -> "11533880528*"
+	11284099600 -> "11533886160+"
+	11516399632 -> "11516398544+"
+	11533869200 -> "11533871952*"
+	11285629008 -> "11533888464*"
+	11516400912 -> "11516400720+"
+	11533864848 -> "11533865040+"
+	11285628880 -> "11533887120+"
+	11533867088 -> "11533867152+"
+	11285631312 -> "11533885008*"
+	11533888848 -> "11533892880+"
+	11533861008 -> "11533869136*"
+	11285629072 -> "11533886992+"
+	11533882512 -> "11533882384+"
+	11533865616 -> "11533873872*"
+	11516407632 -> "11516398864+"
+	11516404560 -> "11516404048+"
+	11285630544 -> "11533882064*"
+	11533872464 -> "11533872528+"
+	11285630992 -> "11533862352*"
+	11533886224 -> "11533886544+"
+	11516405072 -> "11516407376+"
+	11343419088 -> "11533882192*"
+	11533892112 -> "11533861392*"
+	11533886288 -> "11533886352*"
+	11285629840 -> "11533879504*"
+	11516405392 -> "11516411856+"
+	11533869328 -> "11533865680+"
+	11533868624 -> "11533874320+"
+	6426065808 -> "11533886224*"
+	11533873936 -> "11533875792+"
+	11533883472 -> "11533874768+"
+	11533891600 -> "11533891920+"
+	11285628880 -> "11533866192+"
+	11285630288 -> "11533871952*"
+	11516409680 -> "11516404048+"
+	11533871184 -> "11533876816+"
+	11533861392 -> "11533861840+"
+	11533871440 -> "11533871824+"
+	11533873680 -> "11533874384+"
+	11285629904 -> "11533891024*"
+	11515709008 -> "11515720848*"
+	11516403408 -> "11516406096ReLU"
+	11516376848 -> "11516408208*"
+	11516408848 -> "11516405392+"
+	11533886160 -> "11533886800ReLU"
+	11285629456 -> "11533879824+"
+	11533863632 -> "11533864528ReLU"
+	11533887696 -> "11533887504+"
+	11533877712 -> "11533877904+"
+	11533884624 -> "11533885072+"
+	11533888656 -> "11533888464*"
+	11533885200 -> "11533883536+"
+	11285630928 -> "11516402960*"
+	11533863824 -> "11533864400+"
+	11285629392 -> "11533890064*"
+	11516364688 -> "11516368912+"
+	11285629456 -> "11533877520+"
+	11533889936 -> "11533890192+"
+	11285630160 -> "11516395920*"
+	11516367888 -> "11516408848*"
+	11533871568 -> "11533871376+"
+	11285631056 -> "11533866320*"
+	11533886096 -> "11533884240+"
+	11533893520 -> "11533892880+"
+	11533888208 -> "11533870416ReLU"
+	11475740752 -> "11515819856+"
+	11285628944 -> "11516369040*"
+	11533863440 -> "11533864720+"
+	11533888080 -> "11533889040+"
+	11533889232 -> "11533889296+"
+	11516407952 -> "11516402448ReLU"
+	11533868304 -> "11533864464+"
+	11533867536 -> "11533874320+"
+	11516407504 -> "11516405264+"
+	11533890064 -> "11533890192+"
+	11533890576 -> "11533890704+"
+	11533864784 -> "11533864848*"
+	11533868240 -> "11533869328+"
+	11533876560 -> "11533875280+"
+	11516374288 -> "11516364368*"
+	11533882704 -> "11533883600*"
+	11285629264 -> "11533877712*"
+	11343419088 -> "11533864848*"
+	11533885072 -> "11533883536+"
+	11533870224 -> "11533871312(2.409635)²"
+	11533888464 -> "11533888784+"
+	11285630992 -> "11533884688*"
+	11516407376 -> "11516405776+"
+	11533863056 -> "11533871440*"
+	11285629392 -> "11533869136*"
+	11515716496 -> "11533880400*"
+	11533864528 -> "11533867536*"
+	11516368784 -> "11516407184*"
+	11285629968 -> "11533867600+"
+	11533883856 -> "11533883984+"
+	11533886800 -> "11533893328*"
+	11533883600 -> "11533883856+"
+	11285630480 -> "11533881872*"
+	11533890000 -> "11533890064*"
+	11533862352 -> "11533861904+"
+	6172929360 -> "6426686096+"
+	11285630160 -> "11533872016*"
+	11285630096 -> "11533880400*"
+	11285629456 -> "11533868880+"
+	11516411856 -> "11516401744+"
+	11533888912 -> "11533893520*"
+	11533889872 -> "11533889936+"
+	11533878352 -> "11533882576*"
+	11285629648 -> "11533879248*"
+	11533870160 -> "11533871568+"
+	11533890704 -> "11533890832+"
+	11533878288 -> "11533878224*"
+	11516404752 -> "11516407632+"
+	11285629648 -> "11516400912*"
+	11285630672 -> "11516401104*"
+	11533873872 -> "11533875600+"
+	11533877456 -> "11533877904+"
+	11516369104 -> "11516364688*"
+	11533893328 -> "11533892560+"
+	11285630288 -> "11533877968*"
+	11533870736 -> "11533871056ReLU"
+	11285630992 -> "11533874256*"
+	11516376848 -> "11516399632*"
+	11533882256 -> "11533882512+"
+	11533875664 -> "11533877008ReLU"
+	11533888912 -> "11533891792*"
+	11533880720 -> "11533880784+"
+	11516402448 -> "11533877136+"
+	11285629264 -> "11533869072*"
+	11533884240 -> "11533878544+"
+	11516401744 -> "11516409040+"
+	11285629328 -> "11533889872*"
+	11533864080 -> "11533865424*"
+	11533878544 -> "11516349904+"
+	11533891472 -> "11533891536+"
+	11533871120 -> "11533876112+"
+	11285630288 -> "11533892048*"
+	11533884496 -> "11533884560+"
+	11533879248 -> "11533878800+"
+	11533873360 -> "11533874704ReLU"
+	11516408592 -> "11516405392+"
+	11285629072 -> "11533865168+"
+	11285629840 -> "11533890896*"
+	11533890256 -> "11533866320*"
+	11516396880 -> "11516398288*"
+	11516366352 -> "11516377488+"
+	11285629776 -> "11533890640*"
+	11533886800 -> "11533890576*"
+	11516365776 -> "11516376720+"
+	11285631440 -> "11533862800*"
+	11516349392 -> "11516348176+"
+	11533881872 -> "11533882320+"
+	11516409040 -> "11516408464+"
+	11285630928 -> "11533884496*"
+	11533880592 -> "11533880720+"
+	6426061520 -> "11533865424*"
+	11516360976 -> "11533886096+"
+	11285629776 -> "11533867344*"
+	11516397200 -> "11516400016+"
+	11516375888 -> "11516369616ReLU"
+	11516405776 -> "11516407952+"
+	11533883984 -> "11533884944+"
+	11533877136 -> "11533873936(0.852121)²"
+	11533867664 -> "11533865296+"
+	11285630736 -> "11533872400+"
+	11533886608 -> "11533886672*"
+	11516411536 -> "11516407824+"
+	11533887824 -> "11533893136*"
+	11533887440 -> "11533887568+"
+	11516354192 -> "11516358672+"
+	11285631312 -> "11533860944*"
+	11533878224 -> "11533878032+"
+	11533867600 -> "11533867856ReLU"
+	11285629968 -> "11516408144+"
+	11515973840 -> "11516367888ReLU"
+	11533875600 -> "11533874000+"
+	11533887312 -> "11533892176+"
+	11516404624 -> "6426686096+"
+	11285629072 -> "11516367696+"
+	11516369616 -> "11516409616*"
+	11285630864 -> "11516408848*"
+	11285630864 -> "11533884304*"
+	11516405200 -> "6172929360*"
+	11533875344 -> "11533870288+"
+	11533862160 -> "11533861712+"
+	11285628688 -> "11533863248*"
+	11285629008 -> "11533885456*"
+	11533889616 -> "11533889936+"
+	11285628816 -> "11533888400*"
+	11285631056 -> "11533873680*"
+	11343419088 -> "11516365776*"
+	11285629264 -> "11533889680*"
+	11533882384 -> "11533881168+"
+	11533872912 -> "11533872528+"
+	11533879632 -> "11533879760+"
+	11533889552 -> "11533889680*"
+	6426061520 -> "11516364432*"
+	11515716496 -> "11533881872*"
+	11516376848 -> "11516411536*"
+	11285629392 -> "11533878224*"
+	11533878800 -> "11533879440+"
+	11516406096 -> "11516402768*"
+	11285631120 -> "11516408464+"
+	11533877968 -> "11533880784+"
+	11285630160 -> "11533891600*"
+	11533861072 -> "11533861776+"
+	11533872656 -> "11533872912+"
+	11533888912 -> "11533890896*"
+	11285631056 -> "11533883664*"
+	11285630288 -> "11516409808*"
+	11516377360 -> "11516364240*"
+	11533876432 -> "11533872656+"
+	11533890256 -> "11533891024*"
+	11285630480 -> "11516409680*"
+	11533874960 -> "11533875280+"
+	11533866576 -> "11533888208+"
+	11516377744 -> "11516373904+"
+	11516408144 -> "11516396880ReLU"
+	11285630608 -> "11533872464*"
+	11533892560 -> "11533888848+"
+	11533886800 -> "11533879696*"
+	11533880400 -> "11533880464+"
+	11285631440 -> "11516405072*"
+	11533890768 -> "11533892112ReLU"
+	11285630480 -> "11533893328*"
+	11516364432 -> "11516373904+"
+	11533876112 -> "11533875664+"
+	11516349904 -> "11533879056ReLU"
+	11533885456 -> "11533884240+"
+	11533890512 -> "11533890704+"
+	11516408464 -> "11516410832ReLU"
+	11533876368 -> "11533874768+"
+	11285630544 -> "11533893136*"
+	11516406160 -> "11516398544+"
+	11533874704 -> "11533871120*"
+	11533873168 -> "11533874512+"
+	11343061584 -> "11533863888*"
+	11533882192 -> "11533887248+"
+	11285630480 -> "11533876432*"
+	11533871824 -> "11533872080+"
+	11516357456 -> "11533884496*"
+	11533882320 -> "11533880912+"
+	11533892688 -> "11533892560+"
+	11516368784 -> "11516395920*"
+	11533860944 -> "11533861776+"
+	11516377488 -> "11516378384+"
+	11516401104 -> "11516407056+"
+	11516363024 -> "11516365776*"
+	11533886480 -> "11533886224*"
+	11533866320 -> "11533866576+"
+	11285630096 -> "11516397200*"
+	11533863888 -> "11533864720+"
+	11516408272 -> "11516405072*"
+	11533867408 -> "11533867600+"
+	11533863056 -> "11533872464*"
+	11515819856 -> "11516377744+"
+	11533887504 -> "11533886992+"
+	11285629008 -> "11516375760*"
+	11533880272 -> "11533880464+"
+	11285629200 -> "11533893072*"
+	11533871952 -> "11533872080+"
+	11285631504 -> "11533885520*"
+	11516356112 -> "11516354640*"
+	11533870288 -> "11533874960+"
+	11533889104 -> "11533861136+"
+	11533863056 -> "11533874256*"
+	11533884304 -> "11533884432+"
+	11533874256 -> "11533874000+"
+	11533886992 -> "11533887824ReLU"
+	11533874576 -> "11533875216+"
+	11533885136 -> "11533884880+"
+	11533887376 -> "11533887440*"
+	11285631504 -> "11533862224*"
+	11533864272 -> "11533863824+"
+	11516370448 -> "11516375760*"
+	11533864720 -> "11533863824+"
+	11533889040 -> "11533888784+"
+	11533890192 -> "11533879824+"
+	11533879504 -> "11533879312+"
+	11533861968 -> "11533870224+"
+	11285631440 -> "11533876560*"
+	11533875216 -> "11533876752+"
+	11516400016 -> "11516400272+"
+	11516407824 -> "11516405264+"
+	11533874000 -> "11533874384+"
+	11516402960 -> "11516411856+"
+	6426686096 -> "11515721936+"
+	11533885392 -> "11533881680*"
+	11285628880 -> "11516378000+"
+	11533892752 -> "11533892368ReLU"
+	11516357456 -> "11533879952*"
+	11533872016 -> "11533871376+"
+	11516374800 -> "11516376976*"
+	11533879056 -> "11533882256*"
+	11516400720 -> "11516396944+"
+	11533872784 -> "11533872592+"
+	11533871312 -> "11533875216+"
+	11516357456 -> "11533880528*"
+	11533885520 -> "11533883984+"
+	11284099600 -> "11516408016+"
+	11516367888 -> "11516397200*"
+	11516368784 -> "11516410064*"
+	11285629200 -> "11516376912*"
+	11285628688 -> "11533887440*"
+	11533886416 -> "11533886544+"
+	11533891920 -> "11533887312+"
+	11533878352 -> "11533883664*"
+	11533878096 -> "11533878160+"
+	11533866832 -> "11533868240+"
+	11533872976 -> "11533876560*"
+	11285629904 -> "11516407504*"
+	11533892496 -> "11533892752+"
+	11516373904 -> "11515973840+"
+	11285629328 -> "11533878096*"
+	11533891216 -> "11533860944*"
+	11285629072 -> "11516348176+"
+	11533874320 -> "11533867472+"
+	11343061584 -> "6172929360*"
+	11285628816 -> "11533881680*"
+	11285631056 -> "11516409616*"
+	11533890832 -> "11533890960+"
+	11533869072 -> "11533868496+"
+	11285629648 -> "11533867536*"
+	11285629968 -> "11533889744+"
+}
