@@ -5,7 +5,7 @@ from MLUtils import loadingAnimation, printPurple, plot_function, displayPower
 import random
 from graphviz import Digraph, render
 
-# Value class
+# * Value class
 class Value:
     """
     Value class that stores a single scalar value and its gradient, also added functions to be able to add/multiply objects.
@@ -44,7 +44,7 @@ class Value:
         self._operation = _op
         self._backward = lambda: None
         
-    # Arithmatic Operations
+    # * Arithmatic Operations
         
     def __add__(self, other) -> "Value":
         other = other if isinstance(other, Value) else Value(other) # checks if it is a value at first and if not, it creates a value
@@ -86,7 +86,7 @@ class Value:
     def __neg__(self):
         return self * -1
     
-    # Reverse Arithmatic Operations
+    # * Reverse Arithmatic Operations
         
     def __radd__(self, other) -> "Value":
         return self.__add__(other)
@@ -100,7 +100,7 @@ class Value:
     def __rpow__(self, other) -> "Value":
         return self.__pow__(other)
     
-    # Activation Functions
+    # * Activation Functions
         
     def relu(self) -> "Value":
         out = Value(0 if self.value < 0 else self.value, (self,), "ReLU")
@@ -129,7 +129,7 @@ class Value:
         
         return out
         
-    # Back Propagation
+    # * Back Propagation
     
     def backProp(self) -> None: 
         topo = []
