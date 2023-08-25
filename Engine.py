@@ -148,45 +148,6 @@ class Value:
 
     def __repr__(self):
         return f'Value({self.label + ": " if self.label != "" else self.label}Data: {self.value}, Grad: {self.grad})' # Didnt even know you could add functions like that but glad I tried it
-
-
-class Visualizer():
-    def __init__(self, root, rankdir = 'LR'):
-        self.root = root
-        self.nodes, self.edges = self.trace()
-        self.format = 'pdf'
-        self.rankdir = rankdir
-    
-    def trace(self):
-            nodes, edges = set(), set()
-            
-            def build(current):
-                if current not in nodes:
-                    nodes.add(current)
-                    for child in current._prev:
-                        edges.add((child, current))
-                        build(child)
-            build(self.root)
-            
-            return nodes, edges
-    
-    def __call__(self, output = False):
-        drawing = Digraph(format=self.format)
-        drawing.attr(rankdir=self.rankdir)  # Set the rankdir attribute here
-        
-        for node in self.nodes:
-            uid = str(id(node))
-            label = "{%s | data %.4f | grad %.4f}" % (node.label, node.value, node.grad)
-            drawing.node(name=uid, label=label, shape='record')
-            
-            if node._operation:
-                drawing.node(name=uid + node._operation, label=node._operation)
-                drawing.edge(uid + node._operation, uid)
-                    
-        for node1, node2 in self.edges:
-            drawing.edge(str(id(node1)), str(id(node2)) + node2._operation)
-            
-        return drawing
     
 class Neuron:
     '''
@@ -265,3 +226,41 @@ class MLP():
 
     def __repr__(self):
         return f"MLP of [{', '.join(str(layer) for layer in self.layers)}]"
+    
+class Visualizer():
+    def __init__(self, root, rankdir = 'LR'):
+        self.root = root
+        self.nodes, self.edges = self.trace()
+        self.format = 'pdf'
+        self.rankdir = rankdir
+    
+    def trace(self):
+            nodes, edges = set(), set()
+            
+            def build(current):
+                if current not in nodes:
+                    nodes.add(current)
+                    for child in current._prev:
+                        edges.add((child, current))
+                        build(child)
+            build(self.root)
+            
+            return nodes, edges
+    
+    def __call__(self, output = False):
+        drawing = Digraph(format=self.format)
+        drawing.attr(rankdir=self.rankdir)  # Set the rankdir attribute here
+        
+        for node in self.nodes:
+            uid = str(id(node))
+            label = "{%s | data %.4f | grad %.4f}" % (node.label, node.value, node.grad)
+            drawing.node(name=uid, label=label, shape='record')
+            
+            if node._operation:
+                drawing.node(name=uid + node._operation, label=node._operation)
+                drawing.edge(uid + node._operation, uid)
+                    
+        for node1, node2 in self.edges:
+            drawing.edge(str(id(node1)), str(id(node2)) + node2._operation)
+            
+        return drawing
