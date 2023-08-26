@@ -30,8 +30,9 @@ def demo(model, xs, ys):
     trydemo = input("\nWould you like to try the model? (y/n): ")
     
     while trydemo == 'y':
-        print(f"\n\033[1;33mDemo: \n------------------------\033[0m")
+        print(f"\n\033[1;33m\nDemo: \n------------------------\033[0m")
         print(f"dataSet: \n")
+        
         for index, value in enumerate(xs):
             print(index, ":\t", value, "\t----->\t", ys[index])
         
@@ -70,7 +71,7 @@ def main():
     ys = [1.0, -1.0, -1.0, 1.0, 0.5, -0.5]
 
     # Specify Epochs, iterations per epoch and and Learning Rate
-    train(model, xs, ys, 10, 100, 0.05)
+    train(model, xs, ys, 10, 150, 0.05)
     demo(model, xs, ys,)
 
 if __name__ == "__main__":
