@@ -42,4 +42,28 @@ def train():
         print(f'Epoch {i+1} Loss: {loss.value:.6f}')
     printPurple(f"\nSummary of Training: \n---------------------")
     printPurple(f"Initial Loss: {initialLoss.value:.6f} \nFinal Loss: {loss.value:.6f} \nTotal Improvement: {(initialLoss.value - loss.value):.6f}")
+    
 train()
+
+def demo():
+    trydemo = input("Would you like to try the model? (y/n): ")
+    
+    if trydemo == 'y':
+        printPurple(f"\nDemo: \n---------------------")
+        print(f"dataSet: \n")
+        for index, value in enumerate(xs):
+            print(index, ":\t", value, "\t----->\t", ys[index])
+        index = input("\nEnter an index of the dataset (0-5): ")
+        
+        print(f"\nPrediction:\t{round(model(xs[int(index)]).value*2, 1)/2} \nGround Truth:\t{ys[int(index)]}")
+        
+        roundedto25 = round(model(xs[int(index)]).value*4, 0) / 4
+        groundTruth = ys[int(index)]
+        
+        if float(roundedto25) == float(groundTruth):
+            print("\033[1;32mThe model got it Correct!\033[0m")
+        elif roundedto25-groundTruth <= 0.25:
+            print("\033[1;33mAlmost but not quite there!\033[0m")
+        else:
+            print("\033[1;31mThe model got it Wrong!\033[0m")
+demo()
