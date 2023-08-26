@@ -45,6 +45,16 @@ class Value:
         self._backward = lambda: None
         
     # * Arithmatic Operations
+    
+    def __init__(self, value, _children=(), _op = "", **kwargs):
+        self.label = kwargs["label"] if "label" in kwargs else ""
+        self.value = value
+        self.grad = 0.0
+        self._prev = set(_children)
+        self._operation = _op
+        self._backward = lambda: None
+        
+    # Arithmatic Operations
         
     def __add__(self, other) -> "Value":
         other = other if isinstance(other, Value) else Value(other) # checks if it is a value at first and if not, it creates a value
@@ -102,14 +112,14 @@ class Value:
     
     # * Activation Functions
         
-    def relu(self) -> "Value":
-        out = Value(0 if self.value < 0 else self.value, (self,), "ReLU")
+    # def relu(self) -> "Value":
+    #     out = Value(0 if self.value < 0 else self.value, (self,), "ReLU")
         
-        def backward():
-            self.grad += (out.value > 0) * out.grad
-        out._backward = backward
+    #     def backward():
+    #         self.grad += (out.value > 0) * out.grad
+    #     out._backward = backward
         
-        return out
+    #     return out
     
     def tanh(self) -> "Value":
         out = Value(np.tanh(self.value), (self,), "Tanh")
@@ -161,7 +171,7 @@ class Neuron:
 
     '''
     
-    def __init__(self, numInp, activation='relu'):
+    def __init__(self, numInp, activation='tanh'):
         self.weights = [Value(random.uniform(-1, 1), label = "wi") for i in range(numInp)]
         self.bias = Value(0, label='bias')
         self.activation = activation
@@ -182,11 +192,11 @@ class Neuron:
         total = wixiTotal + self.bias
         total.label = 'total'
         
-        if self.activation == 'relu':
-            return total.relu()
-        elif self.activation == 'sigmoid':
-            return total.sigmoid()
-        elif self.activation == 'tanh':
+        # if self.activation == 'relu':
+        #     return total.relu()
+        # elif self.activation == 'sigmoid':
+        #     return total.sigmoid()
+        if self.activation == 'tanh':
             return total.tanh()
         else:
             return total
@@ -220,6 +230,10 @@ class MLP():
         for layer in self.layers:
             x = layer(x)
         return x
+    
+    def zeroGrad(self):
+        for param in self.parameters():
+            param.grad = 0
 
     def parameters(self):
         return [p for layer in self.layers for p in layer.parameters()]
