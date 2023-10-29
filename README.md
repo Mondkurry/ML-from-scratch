@@ -1,11 +1,8 @@
-# Monkey-Grad: Like MicroGrad but more monkey code
+# ML From Scratch
 <h3>
-Making a very simple Machine Learning Model from Scratch without the use of libraries. Just a fun experiment to expand my understanding. <br><br>
-</h3> 
-<p align="center">
-  <img src="https://github.com/Mondkurry/ML-from-scratch/assets/30964417/516a3419-5fde-4365-b13c-c5f8eb44aed6" alt="Monkey coding" width="30%" height="auto"><br>
-  inspired by Andrej Karpathy's video series on youtube.
-</p>
+Making a very simple Machine Learning Model from Scratch without the use of libraries. Just a fun experiment to expand my understanding.
+</h3>
+<p>Inspired by Andrej Karparthy's video series on youtube</p>
 <h2>
   Files in this project :)
 </h2>
@@ -24,3 +21,8 @@ visualizations              |   Folder containing some cool visualizations of th
 ## Cool Visualization of Neural Network
 
 ![Alt text](visualizations/goodLookingGraph-1.png)
+
+<!-- <p align="center">
+  <img src="https://github.com/Mondkurry/ML-from-scratch/assets/30964417/516a3419-5fde-4365-b13c-c5f8eb44aed6" alt="Monkey coding" width="30%" height="auto"><br>
+  inspired by Andrej Karpathy's video series on youtube.
+</p> -->
